@@ -8,7 +8,7 @@
     {{ partial "favicon.html" . }}
     <title>{{ .Title }} {{ default "::" .Site.Params.titleSeparator }} {{ .Site.Title }}</title>
 
-    // inject custom css 
+    <!-- inject custom css --> 
     {{ range .Site.Params.customCSS -}}
     <link rel="stylesheet" href="{{ . | absURL }}">
     {{- end }}
