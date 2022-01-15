@@ -1,5 +1,17 @@
 // put custom css here
 
+#body-inner { 
+    // swag
+}
+
+#TOC {
+    background: #f6f5f4 !important;
+    border: 1px solid #deddda;
+    border-radius: 7px;
+    font: Arial !important;
+    padding: 0px 30px 0px 30px  !important;
+}
+
 #logo {
     // yolo
 }
