@@ -1,32 +1,18 @@
-// put custom css here
+/* Custom CSS i made myself like a big boï*/
 
-// Initiation black-magic
-#body-inner { 
-    // swag
-}
-
-#News {
-    //
-}
-
-// Logo customization
+/* ===========================================
+General tweaks to the appearance */
 #logo, #mainLogo {
+    /* Main logo customization */
     max-height: 175px;
     border-radius: 50% !important;
     box-shadow: 0px 0px 5px darkslategrey;
 }
 
-#random1 {
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    justify-content: center;
-    }
-
-// Flexbox definitions
+/* ===========================================
+Flexbox definitions */
 .flex-container: {
-    background: red !important;
-    background: red !important;
+    /* Flax parent class */
     display: flex !important;
     flex-direction: row !important;
     flex-wrap: wrap !important;
@@ -34,14 +20,17 @@
 }
 
 .flex-child {
-  width: 300px;  /* Or whatever */
-  padding: 5px;
-  border: 1px solid #deddda;
-  border-radius: 5px;
-  background: #ffffff;
-  margin: 10px;  /* Magic! */
+    /* Flex child class */
+    width: 300px;  
+    padding: 5px;
+    border: 1px solid #deddda;
+    border-radius: 5px;
+    background: #ffffff;
+margin: 10px;  /* Magic! */
 }
 
+/* ===========================================
+Content box, mainly for ToC */
 .contentBox {
     background: #f6f5f4 !important;
     border: 1px solid #deddda;
