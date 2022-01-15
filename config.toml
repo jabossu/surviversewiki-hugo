@@ -11,3 +11,7 @@ theme = "learn"
 	
 [params]
 	customCSS = ["css/custom.css"]
+	editURL = "https://github.com/jabossu/surviversewiki-hugo"
+	author = "Topaway"
+	description = "Wiki Officiel des Star Survivors"
+	
