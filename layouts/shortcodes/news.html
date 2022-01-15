@@ -1,0 +1,14 @@
+<div id="News" class="">
+    <h4>Dernières nouvelles</h4>
+    
+<div id="random1" class="flex-container">
+            {{ range first 5 (where .Site.Pages "Type" "nouvelles") }}
+	            <a href="{{ .Permalink }}"><div class="flex-child">
+                    <strong>{{ .Title }}</strong>
+                    <div style="font: Arial; font-size:13px;">{{ .Summary }}</div>
+                </div></a>
+            {{ end }}
+    </div>
+
+    
+</div>

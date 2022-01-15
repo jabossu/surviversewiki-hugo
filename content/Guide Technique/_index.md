@@ -18,4 +18,4 @@ Néanmoins, nous ne crachons pas sur quelques mods qui améliorent la qualité d
 
 Vous trouverez ici toute les informations nécessaires pour profiter au maximum des ressources disponibles sur le serveur.
 
-{{% children description="true" %}}
+{{% children %}}
