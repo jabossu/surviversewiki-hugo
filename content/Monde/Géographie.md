@@ -10,7 +10,10 @@ Vous trouverez consignés ici une carte du monde et les points d'intérêt à vi
 La World Seed du monde est `3035544976232339197`, et le Spawn où se sont basés les survivants se trouve aux coordonnées `X=5760 Z=-874`.  
 Le spawn a été déplacé vers une autre région, plus riche et jolie, par rapport au spawn naturel de la map.  
 {{% /notice %}}
-{{% button href="/worldmap/unmined.index.html" icon="fas fa-map-marked-alt" %}} Worldmap {{% /button %}} 
+
+{{< center >}}
+{{% button href="/worldmap/unmined.index.html" icon="fas fa-map-marked-alt" color="green" %}} Worldmap {{% /button %}} 
+{{< /center >}}
 
 ### Lieux Communs
 

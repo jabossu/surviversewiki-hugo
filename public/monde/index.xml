@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monde on Surviverse Wiki</title>
+    <link>https://surviverse.netlify.app/monde/</link>
+    <description>Recent content in Monde on Surviverse Wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 14 Jan 2022 21:36:05 +0100</lastBuildDate><atom:link href="https://surviverse.netlify.app/monde/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Société</title>
+      <link>https://surviverse.netlify.app/monde/soci%C3%A9t%C3%A9/</link>
+      <pubDate>Fri, 14 Jan 2022 22:27:04 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/monde/soci%C3%A9t%C3%A9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Histoire</title>
+      <link>https://surviverse.netlify.app/monde/histoire/</link>
+      <pubDate>Fri, 14 Jan 2022 22:26:40 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/monde/histoire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Géographie</title>
+      <link>https://surviverse.netlify.app/monde/g%C3%A9ographie/</link>
+      <pubDate>Fri, 14 Jan 2022 22:26:31 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/monde/g%C3%A9ographie/</guid>
+      <description>Le monde des Star Survivors est vaste. Très vaste ! Infiniment vaste, même. Les courageux survivors l&amp;rsquo;ont peu à peu exploré, et ont rapporté les recoins les plus intéressants à visiter.
+Vous trouverez consignés ici une carte du monde et les points d&amp;rsquo;intérêt à visiter.
+ La World Seed du monde est 3035544976232339197, et le Spawn où se sont basés les survivants se trouve aux coordonnées X=5760 Z=-874.
+Le spawn a été déplacé vers une autre région, plus riche et jolie, par rapport au spawn naturel de la map.</description>
+    </item>
+    
+  </channel>
+</rss>

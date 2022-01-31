@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guide Technique on Surviverse Wiki</title>
+    <link>https://surviverse.netlify.app/guide-technique/</link>
+    <description>Recent content in Guide Technique on Surviverse Wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 14 Jan 2022 21:34:43 +0100</lastBuildDate><atom:link href="https://surviverse.netlify.app/guide-technique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Première Connexion</title>
+      <link>https://surviverse.netlify.app/guide-technique/premi%C3%A8re-connexion/</link>
+      <pubDate>Fri, 14 Jan 2022 22:22:12 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/guide-technique/premi%C3%A8re-connexion/</guid>
+      <description>Premier pas : comment se connecter</description>
+    </item>
+    
+    <item>
+      <title>Installer Fabric</title>
+      <link>https://surviverse.netlify.app/guide-technique/installer-fabric/</link>
+      <pubDate>Fri, 14 Jan 2022 22:23:00 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/guide-technique/installer-fabric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modder Avec Fabric</title>
+      <link>https://surviverse.netlify.app/guide-technique/modder-avec-fabric/</link>
+      <pubDate>Fri, 14 Jan 2022 22:23:14 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/guide-technique/modder-avec-fabric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Choisir Ses Mods</title>
+      <link>https://surviverse.netlify.app/guide-technique/choisir-ses-mods/</link>
+      <pubDate>Fri, 14 Jan 2022 22:24:16 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/guide-technique/choisir-ses-mods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utiliser Les Datapacks</title>
+      <link>https://surviverse.netlify.app/guide-technique/utiliser-les-datapacks/</link>
+      <pubDate>Fri, 14 Jan 2022 22:24:53 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/guide-technique/utiliser-les-datapacks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

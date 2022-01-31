@@ -1,0 +1,20 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+
+{{ if  (.Get "color" ) }}
+    <a {{ with .Get "href"}} href="{{.}}" target="_blank" {{ end }} class="btn btn-{{ .Get "color" }}">
+{{ else }}
+    <a {{ with .Get "href"}} href="{{.}}" target="_blank" {{ end }} class="btn btn-default">
+{{ end }}
+
+  {{ $icon := .Get "icon" }}
+  {{ $iconposition := .Get "icon-position" }}
+  {{ if ($icon) }}
+    {{ if or (not ($iconposition)) (eq $iconposition "left") }}
+  <i class="{{$icon}}"></i>
+    {{ end }}
+  {{ end }}
+  {{ .Inner }}
+  {{ if and ($icon) (eq $iconposition "right")}}
+  <i class="{{$icon}}"></i>
+  {{ end }}
+</a>

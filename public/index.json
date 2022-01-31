@@ -1,0 +1,113 @@
+[
+{
+	"uri": "https://surviverse.netlify.app/guide-technique/premi%C3%A8re-connexion/",
+	"title": "Première Connexion",
+	"tags": [],
+	"description": "",
+	"content": " Donc, vous voulez jouer à Minecraft sur le serveur des Star Survivors ? Parfait ! Mais avant de commencer, il vas vous faloir un petit peu de préparation et quelques connaissances de bases.\n Sommaire  À propos du serveur Se connecter au serveur  Ça ne marche pas ! Le serveur me propose d\u0026rsquo;installer un Ressource Pack ! Qu\u0026rsquo;est-ce que c\u0026rsquo;est, et qu\u0026rsquo;est-ce que je fais ?   Pour aller plus loin    À propos du serveur Le serveur des Star Survivors et un SMP en difficulté Hardcore, configuré en whitelist. C\u0026rsquo;est à dire que nous jouons en mode survie, avec la difficulté maximum du jeu, et qu\u0026rsquo;il faut être inscrit sur une liste des joueurs autorisés par le serveur pour pouvoir se connecter. Avant de commencer à jouer, la première chose à faire est d\u0026rsquo;être inscrit sur cette whitelist.\nNous recrutons nos membres sur la base du bouche à oreille, et nous préférons ceux qu\u0026rsquo;un d\u0026rsquo;entre nous connaît IRL. Ce site est dédié aux membres déjà acceptés dans notre communauté, donc si vous lisez ceci cette\u0026quot; étape ne devrait pas être un soucis pour vous. Demandez moi simplement sur Discord de vous ajouter à la whitelist et le tour est joué.\n Notre serveur est vanilla-like. C\u0026rsquo;est à dire que nous utilisons très peu de mods et datapacks, et tout ceux que nous avons ne modifient que très très peu le gameplay du jeu. Nous voulons conserver l\u0026rsquo;atmosphère de base du jeu.\nNous nous utilisons cependant sur le serveur quelques mods et datapacks qui améliorent les performances et/ou facilitent la vie des joueurs. La liste de ces mods est disponible plus loin dans ce guide, et celle des datapacks et visible ici\nRécemment, nous avons modifié les mods installés sur le serveur, les rendant tous complètement facultatifs.\nVous pouvez donc vous connecter au serveur avec un client non-moddé, soit vanilla\nSe connecter au serveur  Lancez le jeu, cliquez sur Multijoueurs puis sur Ajouter un serveur. Entrez le non par lequel vous voulez appeler le serveur (ex. : Star Survivors) Entrez l\u0026rsquo;adresse du serveur : starsurvivors.apexmc.co Cliquez sur Terminé Dans la liste des serveur, choisissez celui que vous venez de créer, sélectionnez le et cliquez Joindre le serveur  Ça ne marche pas ! Si il y a un problème, vous n\u0026rsquo;êtes probablement pas sur la whitelist. Si vous avez été accepté dans notre communauté, nous n\u0026rsquo;avons peut être pas eu le temps de vous ajouter dessus, ou bien nous avons fait une faute de frappe en enregistrant votre pseudo. Écrivez sur discord pour que l\u0026rsquo;on corrige cela.\nSi vous n\u0026rsquo;avez pas été accepté dans notre communauté, et bien… c\u0026rsquo;est normal de ne pas pouvoir vous connecter. Désolé.\nLe serveur me propose d\u0026rsquo;installer un Ressource Pack ! Qu\u0026rsquo;est-ce que c\u0026rsquo;est, et qu\u0026rsquo;est-ce que je fais ? Ce ressource pack est un ensemble de quelques textures communes aux joueurs. Si vous ne l\u0026rsquo;installez pas, vous pourrez jouer normalement, mais quelques objets vous apparaîtront différemment des autres joueurs. L\u0026rsquo;installé est donc conseillé. Il est parfaitement compatible avec tout les autres Ressource Pack que vous pourriez vouloir utiliser.\nVous pouvez en apprendre plus sur le ressource pack sur la page github du projet.\nPour aller plus loin Voilà, vous pouvez maintenant jouer avec nous !\nMais\u0026hellip; Pourquoi s\u0026rsquo;arrêter là ? Nous utilisons quelques mods qui améliorent grandement la qualité de vie de nos joueurs.\nDans la partie suivant, vous apprendrez comment installer Fabric et modder votre jeu, puis vous apprendrez à choisir parmis les mods proposés pour installer ceux qui vous intéressent.\n"
+},
+{
+	"uri": "https://surviverse.netlify.app/guide-technique/",
+	"title": "Guide Technique",
+	"tags": [],
+	"description": "",
+	"content": "Comment jouer ? Comment profiter des ressources du serveur ? Guide Technique Le serveur du Surviverse est un serveur vanilla like. C\u0026rsquo;est notre ambition de garder une experience de jeu aussi fidèle que possible au jeu de base. Pour cette raison, nous évitons les gros mods qui changent le gameplay, les datapacks qui rendent le jeu trop facile, ainsi que tout ceux qui ajoutent trop de contenu.\nNéanmoins, nous ne crachons pas sur quelques mods qui améliorent la qualité de vie du jeu tant qu\u0026rsquo;ils n\u0026rsquo;en affectent pas l\u0026rsquo;expérience. Ainsi, nous utilisons volontiers de légers datapacks, et quelques mods d\u0026rsquo;optimisation de performance.\n Vous trouverez ici toute les informations nécessaires pour profiter au maximum des ressources disponibles sur le serveur.\n Première Connexion   Installer Fabric   Modder Avec Fabric   Choisir Ses Mods   Utiliser Les Datapacks   "
+},
+{
+	"uri": "https://surviverse.netlify.app/guide-technique/installer-fabric/",
+	"title": "Installer Fabric",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://surviverse.netlify.app/guide-technique/modder-avec-fabric/",
+	"title": "Modder Avec Fabric",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://surviverse.netlify.app/monde/",
+	"title": "Monde",
+	"tags": [],
+	"description": "",
+	"content": "Légendes, histoire, géographie\u0026hellip; Le monde Surviverse  Société  \n Histoire  \n Géographie  Le monde des Star Survivors est vaste. Très vaste ! Infiniment vaste, même. Les courageux survivors l\u0026rsquo;ont peu à peu exploré, et ont rapporté les recoins les plus intéressants à visiter. Vous trouverez consignés ici une carte du monde et les points d\u0026rsquo;intérêt à visiter. La World Seed du monde est 3035544976232339197, et le Spawn où se sont basés les survivants se trouve aux coordonnées X=5760 Z=-874. Le spawn a été déplacé vers une autre région, plus riche et jolie, par rapport au spawn naturel de la map.\n "
+},
+{
+	"uri": "https://surviverse.netlify.app/guide-technique/choisir-ses-mods/",
+	"title": "Choisir Ses Mods",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://surviverse.netlify.app/guide-technique/utiliser-les-datapacks/",
+	"title": "Utiliser Les Datapacks",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://surviverse.netlify.app/lexique/",
+	"title": "Lexique",
+	"tags": [],
+	"description": "",
+	"content": "Mots, abréviations et autres raccourcis fréquemment employés ici.\nClient Vocabulaire technique décrivant l'ordinateur du joueur. Un client se connecte au serveur pour être servis les données du jeu.\nDatapack Petite extension du jeu modifiant légèrement certaines fonctionnalités. Différents des mods de deux façons:\n les datapacks sont en général plus légers, d\u0026rsquo;envergure plus limitée que les mods ils n\u0026rsquo;ont besoin d\u0026rsquo;être installés que par le serveur, et fonctionnent de la même façon pour tout le monde.  In-Game Dans le jeu\nIRL In Real Life: dans la vraie vie, en opposition avec in-game\nMod Modification: extension du jeu, développée par un parti tier sans rapport avec les développeurs du jeu, qui ajoutte ou modifie certaines fonctionnalités du jeu. Ces Mods peuvent être installés sur le Client, le Serveur, ou les deux\nServeur Vocabulaire technique décrivant l'ordinateur sur lequel le monde minecraft tourne en permanence, et sur lequel les joueurs clients se connectent pour jouer.\nSMP Survival Multi-Player: Une appélation désignant les serveur multijoueurs en mode survie, par opposition aux serveurs créatifs, où aux mondes solo.\nVanilla Se dit d\u0026rsquo;une installation sans aucun mod. Le jeu de base, tel qu\u0026rsquo;il est vendu par les développeurs.\nWhitelist La liste des joueurs autorisés à se connecter au serveur. Il faut être inscrit par l\u0026rsquo;administrateur du serveur. La connexion est impossible sans cela.\n"
+},
+{
+	"uri": "https://surviverse.netlify.app/news/",
+	"title": "Nouvelles",
+	"tags": [],
+	"description": "",
+	"content": "  Premier article  Premier post du wiki. Quelques infos sur le processus de création, sur les ambitions du wiki\u0026hellip;\n "
+},
+{
+	"uri": "https://surviverse.netlify.app/news/first/",
+	"title": "Premier article",
+	"tags": [],
+	"description": "",
+	"content": "Premier post du wiki ! Je commence la rédaction du wiki 📖 de notre serveur!\nJ\u0026rsquo;ai l\u0026rsquo;ambition de faire de ce site une référence fiable sur l\u0026rsquo;état du serveur, un guide pour assister les nouveaux joueurs dans leur mise en place du jeu, ainsi que l\u0026rsquo;endroit où nous consignerons notre lore.\nJe vais construire ce wiki au moyen de Hugo, un générateur de sites statiques, et du thème Learn spécialement conçu pour rédiger de la documentation. Il sera hébergé (gratuitement) sur Netlify.\nL\u0026rsquo;avantage des générateur de sites statiques, et donc de Hugo, est de créer des sites Internet extrêmement léger. Pour rédiger celui ci, je me contente d\u0026rsquo;écrire de bêtes fichiers en Markdown et Hugo s\u0026rsquo;occupe d\u0026rsquo;en faire un site internet.\nC\u0026rsquo;est simple, facilement transportable, et demande très peu d\u0026rsquo;entretien. Je peux ainsi les héberger sur Netflify gratuitement sans avoir à m\u0026rsquo;encombrer de mises à jours ou de mesures de sécurité.\nCe petit projet perso m\u0026rsquo;amuse beaucoup, et vous êtes les bienvenus pour contribuer ou me donner un feedback.\nÀ bientot, ingame et online ! 👋\n"
+},
+{
+	"uri": "https://surviverse.netlify.app/monde/soci%C3%A9t%C3%A9/",
+	"title": "Société",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://surviverse.netlify.app/monde/histoire/",
+	"title": "Histoire",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://surviverse.netlify.app/monde/g%C3%A9ographie/",
+	"title": "Géographie",
+	"tags": [],
+	"description": "",
+	"content": "Le monde des Star Survivors est vaste. Très vaste ! Infiniment vaste, même. Les courageux survivors l\u0026rsquo;ont peu à peu exploré, et ont rapporté les recoins les plus intéressants à visiter.\nVous trouverez consignés ici une carte du monde et les points d\u0026rsquo;intérêt à visiter.\n La World Seed du monde est 3035544976232339197, et le Spawn où se sont basés les survivants se trouve aux coordonnées X=5760 Z=-874.\nLe spawn a été déplacé vers une autre région, plus riche et jolie, par rapport au spawn naturel de la map.\n  Worldmap  Lieux Communs    Nom du Lieux Coordonnées [X/Z] Description et Lore     Colline du Commencement 5760 -870 Un flanc de colline verdoyant où apparaissent les survivants lorsqu\u0026rsquo;ils se connectent au monde pour la première fois. Une petite maison y a été construite à l\u0026rsquo;aube du monde pour y accueillir les nouveaux venus ; on y trouve la salle du conseil, où chacun des joueurs originel a sa place, et où trône le livre des Chroniques du monde.    Bases des joueurs    Nom du Lieux Nom du Joueur Coordonnées [X/Z] Description et Lore     Le PiedMontagne Topaway ?????? Petit trou de hobbit qui se veut fleuri et accueillant, creuse dans le flanc d\u0026rsquo;un mont face à la coline du commencement.    Structures et Biomes "
+},
+{
+	"uri": "https://surviverse.netlify.app/",
+	"title": "Surviverse Wiki",
+	"tags": [],
+	"description": "",
+	"content": "🌍 Surviverse Wiki 🌍  Bienvenue sur le Wiki officiel du Surviverse !\n Ce site est encore en construction, un peu de patience !\n Le Surviverse est l\u0026rsquo;univers des Star Survivors, une micro-communauté de joueurs qui s\u0026rsquo;est construite autour d\u0026rsquo;une envie de jouer ensemble dans la détente et la bonne entente. Pour le moment, le jeu principal de la communauté est Minecraft, mais peut être que le surviverse sera amené à évoluer en un multivers et intégrer d\u0026rsquo;autres jeux ? Qui sait\u0026hellip;\nCe site a vocation à accueillir les nouveaux joueurs rejoignant notre communauté, ainsi qu\u0026rsquo;à servir de guide à ceux qui sont un peu perdus et ont besoin d\u0026rsquo;assistance. Que ce soit questions techniques ou infos sur l\u0026rsquo;univers, ce site a l\u0026rsquo;ambition de devenir un vrai Wiki, complet et utile, pour chaque Survivors.\n Dernières nouvelles Premier article Premier post du wiki. Quelques infos sur le processus de création, sur les ambitions du wiki\u0026hellip;    "
+},
+{
+	"uri": "https://surviverse.netlify.app/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://surviverse.netlify.app/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
