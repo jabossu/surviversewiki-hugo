@@ -32,7 +32,7 @@
 	"title": "Monde",
 	"tags": [],
 	"description": "",
-	"content": "Légendes, histoire, géographie\u0026hellip; Le monde Surviverse  Société  \n Histoire  \n Géographie  Le monde des Star Survivors est vaste. Très vaste ! Infiniment vaste, même. Les courageux survivors l\u0026rsquo;ont peu à peu exploré, et ont rapporté les recoins les plus intéressants à visiter. Vous trouverez consignés ici une carte du monde et les points d\u0026rsquo;intérêt à visiter. La World Seed du monde est 3035544976232339197, et le Spawn où se sont basés les survivants se trouve aux coordonnées X=5760 Z=-874. Le spawn a été déplacé vers une autre région, plus riche et jolie, par rapport au spawn naturel de la map.\n "
+	"content": "Légendes, histoire, géographie\u0026hellip; Le monde Surviverse  Géographie  Le monde des Star Survivors est vaste. Très vaste ! Infiniment vaste, même. Les courageux survivors l\u0026rsquo;ont peu à peu exploré, et ont rapporté les recoins les plus intéressants à visiter. Vous trouverez consignés ici une carte du monde et les points d\u0026rsquo;intérêt à visiter. La World Seed du monde est 3035544976232339197, et le Spawn où se sont basés les survivants se trouve aux coordonnées X=5760 Z=-874. Le spawn a été déplacé vers une autre région, plus riche et jolie, par rapport au spawn naturel de la map.\n "
 },
 {
 	"uri": "https://surviverse.netlify.app/guide-technique/choisir-ses-mods/",
@@ -60,7 +60,14 @@
 	"title": "Nouvelles",
 	"tags": [],
 	"description": "",
-	"content": "  Premier article  Premier post du wiki. Quelques infos sur le processus de création, sur les ambitions du wiki\u0026hellip;\n "
+	"content": "  Worldmap  Le wiki dispose maintenant d\u0026rsquo;une worldmap ! Présentation sommaire\u0026hellip;\n Premier article  Premier post du wiki. Quelques infos sur le processus de création, sur les ambitions du wiki\u0026hellip;\n "
+},
+{
+	"uri": "https://surviverse.netlify.app/news/worldmap/",
+	"title": "Worldmap",
+	"tags": [],
+	"description": "",
+	"content": "Les Worldmap\u0026hellip; ces carte dynamiques auxquels les joueurs se réfèrent pour explorer, construire, échanger de bon tuyaux\u0026hellip; tout serveur digne de ce nom se doit d\u0026rsquo;en avoir une !\nJusqu\u0026rsquo;à maintenant, nous utilisions (laborieusement) les map in-game, et quelques générateurs en ligne utilisant la seed du monde pour prédire le terrain. Mais cette époque est révolue !\nMaintenant, nous avons une véritable worldmap.\nGénérée grâce à un petit outil gratuit appelé uNmINeD, elle est de toute beauté, de très bonne résolution, dynamique\u0026hellip; tout ce que nous aimons.\nElle est surtout directement intégrée dans le wiki ! Le lien se trouve sur la page Géographie, ainsi qu\u0026rsquo;ici :  Worldmap  Ceci va nous permettre de ne pas nous prendre la tête à compresser les images et à devoir faire des compromis sur la qualité et les détails de la carte.\nOn peut même ajouter des marqueurs directement sur la carte. Pour le moment, seul le spawn est marqué, mais nous allons enrichir la carte de vos suggestion !\nComment suggérer un marqueur ?  Rendez vous sur le tableau google sheet ici :  Tableau des Points d\u0026rsquo;intérêt   Complétez les infos nécéssaires :  nom du marqueur coordonnées X, et Z, chacune dans sa case couleur du texte en hexadécimal   Envoyez moi un message pour que j\u0026rsquo;ajoute le marqueur sur la carte.  Points faibles du système J\u0026rsquo;ai menti : la carte n\u0026rsquo;est pas réellement dynamique. Je dois la mettre manuellement à jour. Néanmoins, c\u0026rsquo;est assez facile et rapide à faire, et l\u0026rsquo;aspect de la carte sur le site est vraiment chouette.\nBon, il est vrai que les noms des marqueurs est assez peu lisible si on en choisit mal la couleur. Pas grand chose que je puisse faire contre ça pour le moment.\nDernière limite de cette implémentation : lorsque la carte se charge, elle s\u0026rsquo;ouvre centrée sur les coordonées 0:0, plutot que les coordonnées du spawn. Là encore, il nous faut nous y faire.\nAvantages du système La carte est légère, se charge facilement, détaillée et permet de zoomer facilement.\nPeu de services sur internet permette de mettre en ligne une image de cette taille et de cette qualité ! encore moins de pouvoir implémenter des marqueurs à celles ci. Je suis content d\u0026rsquo;avoir pu trouver une solution.\nEn bref\u0026hellip; La carte sera mise à jour de temps à autres. Elle devrait être facile d\u0026rsquo;accès pour nous tous, que ce soit sur ordinateur ou téléphone.\nN\u0026rsquo;hésitez pas à poser vos suggestions de marqueurs et d\u0026rsquo;améliorations !\n"
 },
 {
 	"uri": "https://surviverse.netlify.app/news/first/",
@@ -70,32 +77,18 @@
 	"content": "Premier post du wiki ! Je commence la rédaction du wiki 📖 de notre serveur!\nJ\u0026rsquo;ai l\u0026rsquo;ambition de faire de ce site une référence fiable sur l\u0026rsquo;état du serveur, un guide pour assister les nouveaux joueurs dans leur mise en place du jeu, ainsi que l\u0026rsquo;endroit où nous consignerons notre lore.\nJe vais construire ce wiki au moyen de Hugo, un générateur de sites statiques, et du thème Learn spécialement conçu pour rédiger de la documentation. Il sera hébergé (gratuitement) sur Netlify.\nL\u0026rsquo;avantage des générateur de sites statiques, et donc de Hugo, est de créer des sites Internet extrêmement léger. Pour rédiger celui ci, je me contente d\u0026rsquo;écrire de bêtes fichiers en Markdown et Hugo s\u0026rsquo;occupe d\u0026rsquo;en faire un site internet.\nC\u0026rsquo;est simple, facilement transportable, et demande très peu d\u0026rsquo;entretien. Je peux ainsi les héberger sur Netflify gratuitement sans avoir à m\u0026rsquo;encombrer de mises à jours ou de mesures de sécurité.\nCe petit projet perso m\u0026rsquo;amuse beaucoup, et vous êtes les bienvenus pour contribuer ou me donner un feedback.\nÀ bientot, ingame et online ! 👋\n"
 },
 {
-	"uri": "https://surviverse.netlify.app/monde/soci%C3%A9t%C3%A9/",
-	"title": "Société",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://surviverse.netlify.app/monde/histoire/",
-	"title": "Histoire",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "https://surviverse.netlify.app/monde/g%C3%A9ographie/",
 	"title": "Géographie",
 	"tags": [],
 	"description": "",
-	"content": "Le monde des Star Survivors est vaste. Très vaste ! Infiniment vaste, même. Les courageux survivors l\u0026rsquo;ont peu à peu exploré, et ont rapporté les recoins les plus intéressants à visiter.\nVous trouverez consignés ici une carte du monde et les points d\u0026rsquo;intérêt à visiter.\n La World Seed du monde est 3035544976232339197, et le Spawn où se sont basés les survivants se trouve aux coordonnées X=5760 Z=-874.\nLe spawn a été déplacé vers une autre région, plus riche et jolie, par rapport au spawn naturel de la map.\n  Worldmap  Lieux Communs    Nom du Lieux Coordonnées [X/Z] Description et Lore     Colline du Commencement 5760 -870 Un flanc de colline verdoyant où apparaissent les survivants lorsqu\u0026rsquo;ils se connectent au monde pour la première fois. Une petite maison y a été construite à l\u0026rsquo;aube du monde pour y accueillir les nouveaux venus ; on y trouve la salle du conseil, où chacun des joueurs originel a sa place, et où trône le livre des Chroniques du monde.    Bases des joueurs    Nom du Lieux Nom du Joueur Coordonnées [X/Z] Description et Lore     Le PiedMontagne Topaway ?????? Petit trou de hobbit qui se veut fleuri et accueillant, creuse dans le flanc d\u0026rsquo;un mont face à la coline du commencement.    Structures et Biomes "
+	"content": "Le monde des Star Survivors est vaste. Très vaste ! Infiniment vaste, même. Les courageux survivors l\u0026rsquo;ont peu à peu exploré, et ont rapporté les recoins les plus intéressants à visiter.\nVous trouverez consignés ici une carte du monde et les points d\u0026rsquo;intérêt à visiter.\nLa World Seed du monde est 3035544976232339197, et le Spawn où se sont basés les survivants se trouve aux coordonnées X=5760 Z=-874.\nLe spawn a été déplacé vers une autre région, plus riche et jolie, par rapport au spawn naturel de la map.\n  Worldmap   Map Generator  Points d\u0026rsquo;intérêt  Vous voulez contribuer et ajoutter vos points d\u0026rsquo;intérêt à la carte ? Facile !\nComplétez le tableau ci-dessous et envoyez moi un message Discord.\n  Tableau des Points d\u0026rsquo;intérêt  Lieux Communs    Nom du Lieux Coordonnées [X/Z] Description et Lore     Colline du Commencement 5760 -870 Un flanc de colline verdoyant où apparaissent les survivants lorsqu\u0026rsquo;ils se connectent au monde pour la première fois. Une petite maison y a été construite à l\u0026rsquo;aube du monde pour y accueillir les nouveaux venus ; on y trouve la salle du conseil, où chacun des joueurs originel a sa place, et où trône le livre des Chroniques du monde.    Bases des joueurs    Nom du Lieux Nom du Joueur Coordonnées [X/Z] Description et Lore     Le PiedMontagne Topaway ?????? Petit trou de hobbit qui se veut fleuri et accueillant, creuse dans le flanc d\u0026rsquo;un mont face à la coline du commencement.    Structures et Biomes "
 },
 {
 	"uri": "https://surviverse.netlify.app/",
 	"title": "Surviverse Wiki",
 	"tags": [],
 	"description": "",
-	"content": "🌍 Surviverse Wiki 🌍  Bienvenue sur le Wiki officiel du Surviverse !\n Ce site est encore en construction, un peu de patience !\n Le Surviverse est l\u0026rsquo;univers des Star Survivors, une micro-communauté de joueurs qui s\u0026rsquo;est construite autour d\u0026rsquo;une envie de jouer ensemble dans la détente et la bonne entente. Pour le moment, le jeu principal de la communauté est Minecraft, mais peut être que le surviverse sera amené à évoluer en un multivers et intégrer d\u0026rsquo;autres jeux ? Qui sait\u0026hellip;\nCe site a vocation à accueillir les nouveaux joueurs rejoignant notre communauté, ainsi qu\u0026rsquo;à servir de guide à ceux qui sont un peu perdus et ont besoin d\u0026rsquo;assistance. Que ce soit questions techniques ou infos sur l\u0026rsquo;univers, ce site a l\u0026rsquo;ambition de devenir un vrai Wiki, complet et utile, pour chaque Survivors.\n Dernières nouvelles Premier article Premier post du wiki. Quelques infos sur le processus de création, sur les ambitions du wiki\u0026hellip;    "
+	"content": "🌍 Surviverse Wiki 🌍  Bienvenue sur le Wiki officiel du Surviverse !\n Ce site est encore en construction, un peu de patience !\n Le Surviverse est l\u0026rsquo;univers des Star Survivors, une micro-communauté de joueurs qui s\u0026rsquo;est construite autour d\u0026rsquo;une envie de jouer ensemble dans la détente et la bonne entente. Pour le moment, le jeu principal de la communauté est Minecraft, mais peut être que le surviverse sera amené à évoluer en un multivers et intégrer d\u0026rsquo;autres jeux ? Qui sait\u0026hellip;\nCe site a vocation à accueillir les nouveaux joueurs rejoignant notre communauté, ainsi qu\u0026rsquo;à servir de guide à ceux qui sont un peu perdus et ont besoin d\u0026rsquo;assistance. Que ce soit questions techniques ou infos sur l\u0026rsquo;univers, ce site a l\u0026rsquo;ambition de devenir un vrai Wiki, complet et utile, pour chaque Survivors.\n Dernières nouvelles Worldmap Le wiki dispose maintenant d\u0026rsquo;une worldmap ! Présentation sommaire\u0026hellip;  Premier article Premier post du wiki. Quelques infos sur le processus de création, sur les ambitions du wiki\u0026hellip;    "
 },
 {
 	"uri": "https://surviverse.netlify.app/categories/",

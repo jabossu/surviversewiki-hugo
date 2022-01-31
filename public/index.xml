@@ -65,30 +65,21 @@ Datapack Petite extension du jeu modifiant légèrement certaines fonctionnalit�
     </item>
     
     <item>
+      <title>Worldmap</title>
+      <link>https://surviverse.netlify.app/news/worldmap/</link>
+      <pubDate>Mon, 31 Jan 2022 13:09:42 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/news/worldmap/</guid>
+      <description>Le wiki dispose maintenant d&amp;rsquo;une worldmap ! Présentation sommaire&amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Premier article</title>
       <link>https://surviverse.netlify.app/news/first/</link>
       <pubDate>Sat, 15 Jan 2022 13:09:42 +0100</pubDate>
       
       <guid>https://surviverse.netlify.app/news/first/</guid>
       <description>Premier post du wiki. Quelques infos sur le processus de création, sur les ambitions du wiki&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Société</title>
-      <link>https://surviverse.netlify.app/monde/soci%C3%A9t%C3%A9/</link>
-      <pubDate>Fri, 14 Jan 2022 22:27:04 +0100</pubDate>
-      
-      <guid>https://surviverse.netlify.app/monde/soci%C3%A9t%C3%A9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Histoire</title>
-      <link>https://surviverse.netlify.app/monde/histoire/</link>
-      <pubDate>Fri, 14 Jan 2022 22:26:40 +0100</pubDate>
-      
-      <guid>https://surviverse.netlify.app/monde/histoire/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -99,7 +90,7 @@ Datapack Petite extension du jeu modifiant légèrement certaines fonctionnalit�
       <guid>https://surviverse.netlify.app/monde/g%C3%A9ographie/</guid>
       <description>Le monde des Star Survivors est vaste. Très vaste ! Infiniment vaste, même. Les courageux survivors l&amp;rsquo;ont peu à peu exploré, et ont rapporté les recoins les plus intéressants à visiter.
 Vous trouverez consignés ici une carte du monde et les points d&amp;rsquo;intérêt à visiter.
- La World Seed du monde est 3035544976232339197, et le Spawn où se sont basés les survivants se trouve aux coordonnées X=5760 Z=-874.
+La World Seed du monde est 3035544976232339197, et le Spawn où se sont basés les survivants se trouve aux coordonnées X=5760 Z=-874.
 Le spawn a été déplacé vers une autre région, plus riche et jolie, par rapport au spawn naturel de la map.</description>
     </item>
     

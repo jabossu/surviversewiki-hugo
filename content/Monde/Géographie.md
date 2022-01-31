@@ -12,7 +12,18 @@ Le spawn a été déplacé vers une autre région, plus riche et jolie, par rapp
 {{% /notice %}}
 
 {{< center >}}
-{{% button href="/worldmap/unmined.index.html" icon="fas fa-map-marked-alt" color="green" %}} Worldmap {{% /button %}} 
+{{% button href="/worldmap/unmined.index.html" icon="fas fa-map-marked-alt" color="green" %}} Worldmap {{% /button %}}
+{{% button href="https://www.chunkbase.com/apps/seed-map#3035544976232339197" icon="fas fa-robot" color="purple" %}} Map Generator {{% /button %}}
+{{< /center >}}
+
+## Points d'intérêt
+
+{{% notice info %}}
+Vous voulez contribuer et ajoutter vos points d'intérêt à la carte ? Facile !  
+Complétez le tableau ci-dessous et envoyez moi un message Discord.
+{{% /notice %}}
+{{< center >}}
+{{% button href="https://docs.google.com/spreadsheets/d/1-iLcY2G3Sv5r-BGLr9jhJj_qPGHWCF86DVuyeTJ8xyU" icon="fas fa-table" %}} Tableau des Points d'intérêt {{% /button %}}
 {{< /center >}}
 
 ### Lieux Communs

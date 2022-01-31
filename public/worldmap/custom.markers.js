@@ -49,10 +49,10 @@ UnminedCustomMarkers = {
             imageAnchor: [0.5, 1],
             imageScale: 0.5,
             text: "Spawn",
-            textColor: "red", 
+            textColor: "white", 
             offsetX: 0,
             offsetY: 20,
-            font: "italic small-caps bold 12px Georgia, serif",
+            font: "small-caps bold 15px monospace",
         },
 
         // add your markers here
