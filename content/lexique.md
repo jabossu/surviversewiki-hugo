@@ -6,6 +6,9 @@ weight: "100"
 
 Mots, abréviations et autres raccourcis fréquemment employés ici.
 
+#### AFK
+*Away From Keyboard* : loin du clavier. Se dit d'un joueur dont l'avatar est connecté mais qui n'est pas en train de jouer.
+
 #### Client
 Vocabulaire technique décrivant l'**ordinateur du joueur**. Un client se connecte au [serveur](#serveur) pour être servis les données du jeu.
 

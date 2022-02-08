@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Surviverse Wiki</title>
+    <link>https://surviverse.netlify.app/</link>
+    <description>Recent content on Surviverse Wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 14 Jan 2022 21:23:51 +0100</lastBuildDate><atom:link href="https://surviverse.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Première Connexion</title>
+      <link>https://surviverse.netlify.app/guide-technique/premi%C3%A8re-connexion/</link>
+      <pubDate>Fri, 14 Jan 2022 22:22:12 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/guide-technique/premi%C3%A8re-connexion/</guid>
+      <description>Premier pas : comment se connecter</description>
+    </item>
+    
+    <item>
+      <title>Installer Fabric</title>
+      <link>https://surviverse.netlify.app/guide-technique/installer-fabric/</link>
+      <pubDate>Fri, 14 Jan 2022 22:23:00 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/guide-technique/installer-fabric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modder Avec Fabric</title>
+      <link>https://surviverse.netlify.app/guide-technique/modder-avec-fabric/</link>
+      <pubDate>Fri, 14 Jan 2022 22:23:14 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/guide-technique/modder-avec-fabric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Choisir Ses Mods</title>
+      <link>https://surviverse.netlify.app/guide-technique/choisir-ses-mods/</link>
+      <pubDate>Fri, 14 Jan 2022 22:24:16 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/guide-technique/choisir-ses-mods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utiliser Les Datapacks</title>
+      <link>https://surviverse.netlify.app/guide-technique/utiliser-les-datapacks/</link>
+      <pubDate>Fri, 14 Jan 2022 22:24:53 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/guide-technique/utiliser-les-datapacks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lexique</title>
+      <link>https://surviverse.netlify.app/lexique/</link>
+      <pubDate>Sat, 15 Jan 2022 10:34:56 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/lexique/</guid>
+      <description>Mots, abréviations et autres raccourcis fréquemment employés ici.
+Client Vocabulaire technique décrivant l&#39;ordinateur du joueur. Un client se connecte au serveur pour être servis les données du jeu.
+Datapack Petite extension du jeu modifiant légèrement certaines fonctionnalités. Différents des mods de deux façons:
+ les datapacks sont en général plus légers, d&amp;rsquo;envergure plus limitée que les mods ils n&amp;rsquo;ont besoin d&amp;rsquo;être installés que par le serveur, et fonctionnent de la même façon pour tout le monde.</description>
+    </item>
+    
+    <item>
+      <title>Worldmap</title>
+      <link>https://surviverse.netlify.app/news/worldmap/</link>
+      <pubDate>Mon, 31 Jan 2022 13:09:42 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/news/worldmap/</guid>
+      <description>Le wiki dispose maintenant d&amp;rsquo;une worldmap ! Présentation sommaire&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Premier article</title>
+      <link>https://surviverse.netlify.app/news/first/</link>
+      <pubDate>Sat, 15 Jan 2022 13:09:42 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/news/first/</guid>
+      <description>Premier post du wiki. Quelques infos sur le processus de création, sur les ambitions du wiki&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Géographie</title>
+      <link>https://surviverse.netlify.app/monde/g%C3%A9ographie/</link>
+      <pubDate>Fri, 14 Jan 2022 22:26:31 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/monde/g%C3%A9ographie/</guid>
+      <description>Le monde des Star Survivors est vaste. Très vaste ! Infiniment vaste, même. Les courageux survivors l&amp;rsquo;ont peu à peu exploré, et ont rapporté les recoins les plus intéressants à visiter.
+Vous trouverez consignés ici une carte du monde et les points d&amp;rsquo;intérêt à visiter.
+La World Seed du monde est 3035544976232339197, et le Spawn où se sont basés les survivants se trouve aux coordonnées X=5760 Z=-874.
+Le spawn a été déplacé vers une autre région, plus riche et jolie, par rapport au spawn naturel de la map.</description>
+    </item>
+    
+  </channel>
+</rss>

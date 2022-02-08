@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nouvelles on Surviverse Wiki</title>
+    <link>https://surviverse.netlify.app/news/</link>
+    <description>Recent content in Nouvelles on Surviverse Wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 14 Jan 2022 21:34:43 +0100</lastBuildDate><atom:link href="https://surviverse.netlify.app/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Worldmap</title>
+      <link>https://surviverse.netlify.app/news/worldmap/</link>
+      <pubDate>Mon, 31 Jan 2022 13:09:42 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/news/worldmap/</guid>
+      <description>Le wiki dispose maintenant d&amp;rsquo;une worldmap ! Présentation sommaire&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Premier article</title>
+      <link>https://surviverse.netlify.app/news/first/</link>
+      <pubDate>Sat, 15 Jan 2022 13:09:42 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/news/first/</guid>
+      <description>Premier post du wiki. Quelques infos sur le processus de création, sur les ambitions du wiki&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>
