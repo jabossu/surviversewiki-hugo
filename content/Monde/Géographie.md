@@ -11,22 +11,20 @@ La World Seed du monde est `3035544976232339197`, et le Spawn où se sont basés
 Le spawn a été déplacé vers une autre région, plus riche et jolie, par rapport au spawn naturel de la map.  
 {{% /notice %}}
 
-{{< center >}}
-{{% button href="/worldmap/unmined.index.html" icon="fas fa-map-marked-alt" color="green" %}} Worldmap {{% /button %}}
-{{% button href="https://www.chunkbase.com/apps/seed-map#3035544976232339197" icon="fas fa-robot" color="purple" %}} Map Generator {{% /button %}}
-{{< /center >}}
-
 {{% notice warning %}}
 A propos de la worldmap : elle a quelques défauts. Notamment, elle n'est pas centrée.  
 Elle est en fait centrée sur l'ancien spawn, en 0;0. Faite défiler la carte vers le Nord-Est pour trouver notre spawn
 {{% /notice %}}
 
+{{< center >}}
+{{% button href="/worldmap/unmined.index.html" icon="fas fa-map-marked-alt" color="green" %}} Worldmap {{% /button %}}
+{{% button href="https://www.chunkbase.com/apps/seed-map#3035544976232339197" icon="fas fa-robot" color="purple" %}} Map Generator {{% /button %}}
+{{< /center >}}
+
 ## Points d'intérêt
 
-{{% notice info %}}
-Vous voulez contribuer et ajoutter vos points d'intérêt à la carte ? Facile !  
-Complétez le tableau ci-dessous et envoyez moi un message Discord.
-{{% /notice %}}
+Vous voulez contribuer et ajoutter vos points d'intérêt à la carte ? Facile ! Complétez le tableau ci-dessous et envoyez moi un message Discord.
+
 {{< center >}}
 {{% button href="https://docs.google.com/spreadsheets/d/1-iLcY2G3Sv5r-BGLr9jhJj_qPGHWCF86DVuyeTJ8xyU" icon="fas fa-table" %}} Tableau des Points d'intérêt {{% /button %}}
 {{< /center >}}
@@ -40,5 +38,5 @@ Complétez le tableau ci-dessous et envoyez moi un message Discord.
 ### Bases des joueurs
 | Nom du Lieux | Nom du Joueur | Coordonnées [X/Z] | Description et Lore |
 | --- | --- | --- | --- |
-| Le PiedMontagne | Topaway | ?????? | Petit trou de hobbit qui se veut fleuri et accueillant, creuse dans le flanc d'un mont face à la coline du commencement. |
+| Le PiedMontagne | Topaway | ?????? | Petit trou de hobbit qui se veut fleuri et accueillant, creusé dans le flanc d'un mont face à la colline du commencement. |
 ### Structures et Biomes
