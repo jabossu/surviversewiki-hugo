@@ -10,4 +10,8 @@ pre = "<b><i class='fas fa-globe-europe'></i> </b>"
 
 # Le monde Surviverse
 
-{{% children description="true" %}}
+Quelques infos sur le monde et son contenu.
+
+{{% children %}}
+
+

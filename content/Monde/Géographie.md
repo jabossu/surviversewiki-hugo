@@ -1,6 +1,7 @@
 ---
 title: "Géographie"
 date: 2022-01-14T22:26:31+01:00
+weight: 10
 ---
 
 Le monde des Star Survivors est vaste. Très vaste ! Infiniment vaste, même. Les courageux survivors l'ont peu à peu exploré, et ont rapporté les recoins les plus intéressants à visiter.  
