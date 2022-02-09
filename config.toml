@@ -14,4 +14,14 @@ theme = "learn"
 	editURL = "https://github.com/jabossu/surviversewiki-hugo"
 	author = "Topaway"
 	description = "Wiki Officiel des Star Survivors"
-	
+
+[[menu.shortcuts]]
+    name = "<i class='fab fa-github'></i> Github repo"
+    identifier = "ds"
+    url = "https://github.com/jabossu/surviversewiki-hugo"
+    weight = 10
+
+[[menu.shortcuts]]
+    name = "<i class='fas fa-map-marked-alt'></i> Worldmap"
+    url = "http://localhost:1313/worldmap/unmined.index.html"
+    weight = 20
