@@ -31,22 +31,22 @@ D'autres méthodes d'installation existent, notamment pour les lanceurs alternat
 
 ### Installation
 
-1. Télé-chargez l'installateur sur [<i class="fa-solid fa-link"></i>fabricmc.net](http://fabricmc.net)
+1. Téléchargez l'installateur sur [<i class="fa-solid fa-link"></i>fabricmc.net](http://fabricmc.net)
    - **<i class="fa-brands fa-linux"></i> Linux / <i class="fa-brands fa-apple"></i> MacOS**: choisissez le fichier `.JAR`
    - **<i class="fa-brands fa-windows"></i> Windows**: choisissez l'`installateur windows`
 2. Executez l'installateur
    - **<i class="fa-brands fa-linux"></i> Linux / <i class="fa-brands fa-apple"></i> MacOS**:
-     - Ouvrez un Terminal et naviguez vers le dossier où se trouve l'installateur (probablement le dossier de télé-chargements)
+     - Ouvrez un Terminal et naviguez vers le dossier où se trouve l'installateur (probablement le dossier de téléchargements)
      - Tapez la commande suivante : 
          ```bash
          java -jar fabric-installer-0.xx.xx.jar
          ```
    - **<i class="fa-brands fa-windows"></i> Windows**: exécutez le fichier `.exe` que vous venez de télécharger 
-3. Ouvrez Minecraft, choisissez le nouveau profile "*Fabric*"
-   - NB: Si pas de profile, erreur d'installation
 5. Une fenêtre s'ouvre et vous demande de choisir la version de fabric et de minecraft.
      - choisissez la dernière version de fabric
      - choisissez minecraft 1.18.1
+3. Ouvrez Minecraft, choisissez le nouveau profile "*Fabric*"
+   - NB: Si le profile n'apparaît pas, il y a eu une erreur d'installation
 4. Jouez & Enjoy
 
 ### Mise à jour
