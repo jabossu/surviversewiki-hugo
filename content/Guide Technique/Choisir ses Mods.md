@@ -17,13 +17,13 @@ Ces mods sont installés sur le serveur. La plupart sont des mods d'optimisation
 
 | Nom                     | Description                                          | Source       |
 |-------------------------|------------------------------------------------------|--------------|
-| **Fabric Loader & API** | Charge et gère les mods                              | FabricMC.net |
-| **Simple Voicechat**    | Chat de proximité ingame                             | ModRepo      |
-| **Sit (Fabric)**        | Asseyez vous !                                       | Modrinth     |
-| **bfAPI**               | API nécessaire au mod Sit                            | Modrinth     |
-| **Phosphore**           | Optimisation et gain de FPS                          | Modrinth     |
-| **Lithium**             | Optimisation et gain de RAM                          | Modrinth     |
-| **Fabric-Discord Link** | Lie les messages de chat entre Discord et le Serveur | Modrinth     |
+| **Fabric Loader & API** | Charge et gère les mods                              | [FabricMc](http://frabcricmc.net) |
+| **Simple Voicechat**    | Chat de proximité ingame                             | [ModRepo](https://modrepo.de/minecraft/voicechat/overview/)      |
+| **Sit (Fabric)**        | Asseyez vous !                                       | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sit-fabric)     |
+| **bfAPI**               | API nécessaire au mod Sit                            | [Mordrinth](https://modrinth.com/mod/bfapi)     |
+| **Phosphore**           | Optimisation et gain de FPS                          | [Modrinth](https://modrinth.com/mod/phosphor)     |
+| **Lithium**             | Optimisation et gain de RAM                          | [Modrinth](https://modrinth.com/mod/lithium)     |
+| **Fabric-Discord Link** | Lie les messages de chat entre Discord et le Serveur | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link)     |
 
 ## Mods Clients-Serveur
 Ces mods sont ceux qui nécessitent d'être installés sur le client *et* le serveur pour fonctionner. Certains empêcheront même les clients de se connecter s'ils ne sont pas installés.  
@@ -41,7 +41,7 @@ Le seul mod client-serveur que nous avons est le **Simple Voice Chat**, on mod d
     - changez le seuil d'activation de votre micro
 
 ## Mods Clients Recommandés
-Voici une liste suggestive et non-exhaustive de mods que j'utilise et je conseille. 
+Voici une liste suggestive et non-exhaustive de mods pratiques, utilisables en étant seulement installés sur le client. 
 
 ### Optimisation et gain de performance
 | Nom            | Description                                                                                                                                                                                                                                                                        | Source                                                                                                                                                     |
