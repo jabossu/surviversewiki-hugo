@@ -16,6 +16,11 @@ Le spawn a été déplacé vers une autre région, plus riche et jolie, par rapp
 {{% button href="https://www.chunkbase.com/apps/seed-map#3035544976232339197" icon="fas fa-robot" color="purple" %}} Map Generator {{% /button %}}
 {{< /center >}}
 
+{{% notice warning %}}
+A propos de la worldmap : elle a quelques défauts. Notamment, elle n'est pas centrée.  
+Elle est en fait centrée sur l'ancien spawn, en 0;0. Faite défiler la carte vers le Nord-Est pour trouver notre spawn
+{{% /notice %}}
+
 ## Points d'intérêt
 
 {{% notice info %}}
