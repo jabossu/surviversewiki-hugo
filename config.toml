@@ -23,5 +23,5 @@ theme = "learn"
 
 [[menu.shortcuts]]
     name = "<i class='fas fa-map-marked-alt'></i> Worldmap"
-    url = "http://localhost:1313/worldmap/unmined.index.html"
+    url = "/worldmap/unmined.index.html"
     weight = 20
