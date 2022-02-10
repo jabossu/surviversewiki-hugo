@@ -16,12 +16,12 @@ theme = "learn"
 	description = "Wiki Officiel des Star Survivors"
 
 [[menu.shortcuts]]
-    name = "<i class='fab fa-github'></i> Github repo"
-    identifier = "ds"
-    url = "https://github.com/jabossu/surviversewiki-hugo"
-    weight = 10
-
-[[menu.shortcuts]]
     name = "<i class='fas fa-map-marked-alt'></i> Worldmap"
     url = "/worldmap/unmined.index.html"
     weight = 20
+
+[[menu.shortcuts]]
+    name='<br><center><img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/jabossu/surviversewiki-hugo/main?style=for-the-badge"></center>'
+    url = "https://github.com/jabossu/surviversewiki-hugo"
+    weight = 30
+    
