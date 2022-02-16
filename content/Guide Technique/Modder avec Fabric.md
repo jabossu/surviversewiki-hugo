@@ -57,5 +57,17 @@ Si vous voulez proposer/demander l'installation d'un mod sur le serveur, lancez 
 {{% /notice %}}
 
 ## Télécharger et installer un mod
+La majorité des mods s'installent de façon assez simple. Il suffit de télécharger le fichier et de le glisser dans le dossier du jeu au bon endroit. Toutefois, il est bon de noter...
+ - certains mods sont développés en différentes version. Il faut donc télécharger la bonne. cf [plus haut](#a-prendre-en-compte).
+ - certains mods ont des méthodes d'installations plus compliquées. Elle sont généralement bien détaillées sur le site du développeur, et il faut alors les suivre.
+ - parfois, le fichier téléchargé est un `.zip`. Dans ces cas là, il faut en général l'extraire pour en retirer le fichier `.jar` (sauf si le contraire est précisé par le mod)
+
+Le dossier où placer les mods est différent selon votre système d'exploitation:
+   - **{{< icon icon="fab fa-linux" >}} Linux / {{< icon icon="fab fa-apple" >}} MacOS**: `$HOME/.minecraft/mods`
+   - **{{< icon icon="fab fa-windows" >}} Windows**: `%appdata%\minecraft\mods`
+Si le dossier n'existe pas, il faut le créer.
 
 ## Zoom sur...
+Certains mods nécessitent un peu de configuration ou bien une installation un peu particulière. Il n'est bien sûr pas possible de tous les lister ici, mais vous trouverez ici un abrégé du guide d'installation pour ceux utilisés par le serveur.
+
+ - [Voicechat](../zoom/voicechat)
