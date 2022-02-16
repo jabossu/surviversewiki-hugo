@@ -37,11 +37,23 @@ margin: 10px;  /* Magic! */
 Content box, mainly for ToC */
 .contentBox {
     background: #f6f5f4 !important;
-    border: 1px solid #deddda;
+    border: 1px solid #deddda !important;
     border-radius: 7px;
     font: Arial !important;
     padding: 20px  !important;
+    margin: auto;
 }
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 888px) { .contentBox { min-width: 400px; } }
+ 
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) { .contentBox { width: 70%; } }
+ 
+#TableOfContents > ul {
+    margin: 0px !important;
+}
+
 
 /* ===========================================
 Buttons! */
