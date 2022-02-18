@@ -5,7 +5,7 @@ title = 'Surviverse Wiki'
 # Change the default theme to be use when building the site with Hugo
 theme = "learn"
 
-# For search functionality
+# General Config 
 [outputs]
 	home = [ "HTML", "RSS", "JSON"]
 	
@@ -14,6 +14,14 @@ theme = "learn"
 	editURL = "https://github.com/jabossu/surviversewiki-hugo/edit/main/content/"
 	author = "Topaway"
 	description = "Wiki Officiel des Star Survivors"
+
+[markup]
+  [markup.tableOfContents]
+    ordered = false
+    startLevel = 2
+    endLevel = 3
+
+## Menu shortcuts
 
 [[menu.shortcuts]]
     name = "<i class='fas fa-map-marked-alt'></i> Worldmap"
