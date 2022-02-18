@@ -21,7 +21,7 @@ theme = "learn"
     weight = 20
 
 [[menu.shortcuts]]
-    name="<i class='fas question-fa'></i> FAQ"
+    name='<i class="fas fa-question-circle"></i> FAQ'
     url = "/FAQ"
     weight = 30
 
