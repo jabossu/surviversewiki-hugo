@@ -21,7 +21,11 @@ theme = "learn"
     weight = 20
 
 [[menu.shortcuts]]
-    name='<br><center><img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/jabossu/surviversewiki-hugo/main?style=for-the-badge"></center>'
-    url = "https://github.com/jabossu/surviversewiki-hugo"
+    name="<i class='fas question-fa'></i> FAQ"
+    url = "/FAQ"
     weight = 30
-    
+
+[[menu.shortcuts]]
+    name='<br><center><img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/jabossu/surviversewiki-hugo/main"></center>'
+    url = "https://github.com/jabossu/surviversewiki-hugo"
+    weight = 3000
