@@ -56,6 +56,15 @@ Content box, mainly for ToC */
 
 
 /* ===========================================
+Tweaks the sidebar appearance */
+#sidebar .separator{
+    border: 1px grey;
+    background-color: transparent !important;
+    border-style: dashed;
+    margin:7px 10px 7px 10px;
+}
+
+/* ===========================================
 Buttons! */
 .btn-green {
     color: #fff;
