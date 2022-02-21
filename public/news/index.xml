@@ -8,6 +8,15 @@
     <language>fr-fr</language>
     <lastBuildDate>Fri, 14 Jan 2022 21:34:43 +0100</lastBuildDate><atom:link href="https://surviverse.netlify.app/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Changelog Serveur &amp; FAQ</title>
+      <link>https://surviverse.netlify.app/news/changelog-serveur/</link>
+      <pubDate>Mon, 21 Feb 2022 22:03:16 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/news/changelog-serveur/</guid>
+      <description>Création d&amp;rsquo;un changelog pour conserver les infos sur les modifications faites au serveur.</description>
+    </item>
+    
+    <item>
       <title>Tutorial⸬Begins</title>
       <link>https://surviverse.netlify.app/news/tutorialbegins/</link>
       <pubDate>Wed, 09 Feb 2022 07:42:06 +0100</pubDate>
