@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.92.0" />
+    <meta name="generator" content="Hugo 0.92.1" />
     <meta name="description" content="Wiki Officiel des Star Survivors">
 <meta name="author" content="Topaway">
 
@@ -12,20 +12,20 @@
     <title>Choisir Ses Mods :: Surviverse Wiki</title>
    
     
-    <link href="/css/nucleus.css?1643644955" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1643644955" rel="stylesheet">
-    <link href="/css/hybrid.css?1643644955" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1643644955" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1643644955" rel="stylesheet">
-    <link href="/css/auto-complete.css?1643644955" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1643644955" rel="stylesheet">
-    <link href="/css/theme.css?1643644955" rel="stylesheet">
-    <link href="/css/tabs.css?1643644955" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1643644955" rel="stylesheet">
+    <link href="/css/nucleus.css?1645477209" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1645477209" rel="stylesheet">
+    <link href="/css/hybrid.css?1645477209" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1645477209" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1645477209" rel="stylesheet">
+    <link href="/css/auto-complete.css?1645477209" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1645477209" rel="stylesheet">
+    <link href="/css/theme.css?1645477209" rel="stylesheet">
+    <link href="/css/tabs.css?1645477209" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1645477209" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1643644955"></script>
+    <script src="/js/jquery-3.3.1.min.js?1645477209"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1643644955"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1643644955"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1645477209"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1645477209"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/surviverse.netlify.app\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1643644955"></script>
+<script type="text/javascript" src="/js/search.js?1645477209"></script>
 
     
   </div>
@@ -217,6 +217,9 @@
 
             
           
+            
+            
+          
         
         </ul>
       
@@ -309,6 +312,30 @@
 
     
     
+      <section id="shortcuts">
+        
+         <hr class="separator"> 
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/worldmap/unmined.index.html"><i class='fas fa-map-marked-alt'></i> Worldmap</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/faq"><i class="fas fa-question-circle"></i> FAQ</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/changelog"><i class="fas fa-history"></i> Changelog Serveur</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://github.com/jabossu/surviversewiki-hugo"><br><center><img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/jabossu/surviversewiki-hugo/main"></center></a>
+              </li>
+          
+        </ul>
+      </section>
+    
 
     
     <section id="footer">
@@ -332,7 +359,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/jabossu/surviversewiki-hugoGuide%20Technique/Choisir%20ses%20Mods.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/jabossu/surviversewiki-hugo/edit/main/content/Guide%20Technique/Choisir%20ses%20Mods.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -376,7 +403,19 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#mods-serveur">Mods Serveur</a></li>
+    <li><a href="#mods-clients-serveur">Mods Clients-Serveur</a></li>
+    <li><a href="#mods-clients-recommandés">Mods Clients Recommandés</a>
+      <ul>
+        <li><a href="#optimisation-et-gain-de-performance">Optimisation et gain de performance</a></li>
+        <li><a href="#modifications-de-linterface-et-gain-de-fonctionnalités">Modifications de l&rsquo;interface et gain de fonctionnalités</a></li>
+        <li><a href="#librairies--dépendances">Librairies &amp; Dépendances</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -398,6 +437,220 @@
 
         
 
+
+<p>De nombreux mods existent pour Minecraft, mais tous ne sont pas compatibles avec Fabric ni avec Minecraft 1.18.1. Certains mods sont prévus pour le <a href="/lexique#serveur">serveur</a>, d&rsquo;autres pour le <a href="/lexique#cleint">client</a>. La majorité ont besoin d&rsquo;être installés sur les deux pour fonctionner correctement.</p>
+<p>Notre serveur est <em>Vanilla-Like</em>, c&rsquo;est à dire que nous essayons d&rsquo;avoir le moins de mods possible, et que ceux que nous avons ne modifient pas d&rsquo;aspect fondamental du jeu. Nous voulons garder le gameplay de Minecraft tout en améliorant la qualité de vie des joueurs.</p>
+<p>Sur cette page, vous trouverez quelques informations sur les mods installés sur le serveur et sur ceux que vous pouvez choisir d&rsquo;installer sur votre client.</p>
+<div id="TOC" class="contentBox">
+    <h5>Sommaire</h5>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#mods-serveur">Mods Serveur</a></li>
+    <li><a href="#mods-clients-serveur">Mods Clients-Serveur</a></li>
+    <li><a href="#mods-clients-recommandés">Mods Clients Recommandés</a>
+      <ul>
+        <li><a href="#optimisation-et-gain-de-performance">Optimisation et gain de performance</a></li>
+        <li><a href="#modifications-de-linterface-et-gain-de-fonctionnalités">Modifications de l&rsquo;interface et gain de fonctionnalités</a></li>
+        <li><a href="#librairies--dépendances">Librairies &amp; Dépendances</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+<h2 id="mods-serveur">Mods Serveur</h2>
+<p>Ces mods sont installés sur le serveur. La plupart sont des mods d&rsquo;optimisation de performance, mais certains ajoutent quelques fonctionnalités. Ceux-ci ont été choisis pour tous être facultatifs ; c&rsquo;est à dire que <em>vous <strong>pourrez</strong> vous connecter avec un client vanilla</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Description</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fabric Loader &amp; API</strong></td>
+<td>Charge et gère les mods</td>
+<td><a href="http://frabcricmc.net">FabricMc</a></td>
+</tr>
+<tr>
+<td><strong>Simple Voicechat</strong></td>
+<td>Chat de proximité ingame</td>
+<td><a href="https://modrepo.de/minecraft/voicechat/overview/">ModRepo</a></td>
+</tr>
+<tr>
+<td><strong>Sit (Fabric)</strong></td>
+<td>Asseyez vous !</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/sit-fabric">CurseForge</a></td>
+</tr>
+<tr>
+<td><strong>bfAPI</strong></td>
+<td>API nécessaire au mod Sit</td>
+<td><a href="https://modrinth.com/mod/bfapi">Mordrinth</a></td>
+</tr>
+<tr>
+<td><strong>Phosphore</strong></td>
+<td>Optimisation et gain de FPS</td>
+<td><a href="https://modrinth.com/mod/phosphor">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>Lithium</strong></td>
+<td>Optimisation et gain de RAM</td>
+<td><a href="https://modrinth.com/mod/lithium">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>Fabric-Discord Link</strong></td>
+<td>Lie les messages de chat entre Discord et le Serveur</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link">CurseForge</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="mods-clients-serveur">Mods Clients-Serveur</h2>
+<p>Ces mods sont ceux qui nécessitent d&rsquo;être installés sur le client <em>et</em> le serveur pour fonctionner. Certains empêcheront même les clients de se connecter s&rsquo;ils ne sont pas installés.<br>
+Néanmoins, nous n&rsquo;avons aucun de ces mods sur notre serveur. Autrement dit, <em>même un client vanilla pourra se connecter et jouer normalement</em>.</p>
+<p>Le seul mod client-serveur que nous avons est le <strong>Simple Voice Chat</strong>, on mod de chat de proximité. Ses principales fonctionnalités sont:</p>
+<ul>
+<li>Un chat vocal <em>ingame</em>, ne nécessitant pas d&rsquo;application tierce</li>
+<li>Le volume des joueurs est lié à la distance qui les sépare
+<ul>
+<li>approchez vous simplement d&rsquo;un autre joueur pour l&rsquo;entendre et lui parler, sans passer par un menu</li>
+<li>paniquez en entendant sa voix se faire plus distante et faible à mesure que vous vous perdez dans les cavernes</li>
+</ul>
+</li>
+<li>Créez des groupes de chat pour parler à plusieurs, quelque soit la distance qui vous sépare</li>
+<li>Mode Push-to-Talk ou Voice Detection</li>
+<li>Paramétrez le mod <em>ingame</em>
+<ul>
+<li>réglez le volume des autres joueurs</li>
+<li>changez le seuil d&rsquo;activation de votre micro</li>
+</ul>
+</li>
+</ul>
+<h2 id="mods-clients-recommandés">Mods Clients Recommandés</h2>
+<p>Voici une liste suggestive et non-exhaustive de mods pratiques, utilisables en étant seulement installés sur le client.</p>
+<h3 id="optimisation-et-gain-de-performance">Optimisation et gain de performance</h3>
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Description</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>cullLeaves</strong></td>
+<td>Optimisation graphique : modifie le rendering des feuilles pour n&rsquo;afficher que celles visibles. Gain de performances particulièrement notable dans les régions avec beaucoup d&rsquo;arbres.  NB: Peut etre associé avec un ressourcepack pour garder un aspect esthétique aux feuilles.</td>
+<td><a href="https://modrinth.com/mod/cull-leaves">Modrinth</a> RessourcePack: <a href="https://www.curseforge.com/minecraft/texture-packs/motschens-better-leaves">BetterLeaves</a></td>
+</tr>
+<tr>
+<td><strong>lithium</strong></td>
+<td>Optimisation du moteur de jeu réduisant lag et diminuant les ressources consommées.</td>
+<td><a href="https://modrinth.com/mod/lithium">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>phosphor</strong></td>
+<td>Optimisation du moteur d&rsquo;éclairage du jeu améliorant les performances.</td>
+<td><a href="https://modrinth.com/mod/phosphor">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>sodium</strong></td>
+<td>Optimisation du moteur d&rsquo;affichage améliorant les performances</td>
+<td><a href="https://modrinth.com/mod/sodium">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>krypton</strong></td>
+<td>Optimisation du protocole d&rsquo;échange de paquets avec le serveur améliorant la connexion.</td>
+<td><a href="https://modrinth.com/mod/krypton">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>lazydfu</strong></td>
+<td>Ne charge que les données nécessaires, accélérant considérablement le lancement du jeu.</td>
+<td><a href="https://modrinth.com/mod/lazydfu">Modrinth</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="modifications-de-linterface-et-gain-de-fonctionnalités">Modifications de l&rsquo;interface et gain de fonctionnalités</h3>
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Utilité</th>
+<th>Description</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>clickthrough</strong></td>
+<td>⭐⭐⭐</td>
+<td>Cliquez et accédez aux coffres au travers des pancartes</td>
+<td><a href="https://modrinth.com/mod/clickthrough">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>easiercrafting</strong></td>
+<td>⭐⭐</td>
+<td>Améliore l&rsquo;interface de craft pour obtenir le même résultat en moins de clics</td>
+<td><a href="https://modrinth.com/mod/easiercrafting">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>easiervillagertrading</strong></td>
+<td>⭐⭐</td>
+<td>Améliore l&rsquo;interface des villageois pour obtenir le même résultat en moins de clics</td>
+<td><a href="https://modrinth.com/mod/easiervillagertrading">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>stendhal</strong></td>
+<td>⭐⭐⭐⭐</td>
+<td>Modifie l&rsquo;interface de texte pour offrir couleurs, émotions et style aux livres, nametags et chats</td>
+<td><a href="https://modrinth.com/mod/stendhal">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>InventoryProfilesNext</strong></td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>Un petit outil pour trier et ranger les inventaires en quelques raccourcis</td>
+<td><a href="https://modrinth.com/mod/inventory-profiles-next">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>MouseTweaks</strong></td>
+<td>⭐⭐</td>
+<td>Gérez vos inventaires et déplacez les objets en quelques clicks</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks">CurseForge</a></td>
+</tr>
+<tr>
+<td><strong>light-overlay</strong></td>
+<td>⭐⭐⭐</td>
+<td>Mettez en surbrillance les blocks où les mobs peuvent spawner</td>
+<td><a href="https://www.curseforge.com/minecraft/mc-mods/light-overlay/">CurseForge</a></td>
+</tr>
+<tr>
+<td><strong>statuseffecttimer</strong></td>
+<td>⭐⭐⭐</td>
+<td>Affichez sur votre écran le temps restant aux effets de potions</td>
+<td><a href="https://modrinth.com/mod/statuseffecttimer">Modrinth</a></td>
+</tr>
+<tr>
+<td><strong>inspecio</strong></td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>Obtenez plus d&rsquo;infos sur vos objets en les survolants de votre souris</td>
+<td><a href="https://modrinth.com/mod/inspecio">Modrinth</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="librairies--dépendances">Librairies &amp; Dépendances</h3>
+<p>Ces mods sont les fondations sur lesquelles reposent les autres. Vous devrez les installer pour permettre au jeu de fonctionner.<br>
+Voici quelques unes de ces dépendances :</p>
+<ul>
+<li>Fabric Loader: pas vraiment un mod, mais nécessaire pour tout jeu moddé. <a href="/guide-technique/installer-fabric">Installez le</a>.</li>
+<li>Fabric API:</li>
+<li>modmenu</li>
+<li>cloth-config</li>
+<li>architectury</li>
+</ul>
+
+<div class="notices tip" ><p>Chaque mod précise dans sa page de descriptions quels sont ses dépendances. Si votre jeu crash au démarrage, vérifiez les messages d&rsquo;erreurs à la recherche d&rsquo;une manquante.</p>
+</div>
 
 
 
@@ -532,6 +785,43 @@
             
         
                     
+                        
+            
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -563,22 +853,6 @@
                     
             
         
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
                         
             
@@ -637,19 +911,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1643644955"></script>
-    <script src="/js/perfect-scrollbar.min.js?1643644955"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1643644955"></script>
-    <script src="/js/jquery.sticky.js?1643644955"></script>
-    <script src="/js/featherlight.min.js?1643644955"></script>
-    <script src="/js/highlight.pack.js?1643644955"></script>
+    <script src="/js/clipboard.min.js?1645477209"></script>
+    <script src="/js/perfect-scrollbar.min.js?1645477209"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1645477209"></script>
+    <script src="/js/jquery.sticky.js?1645477209"></script>
+    <script src="/js/featherlight.min.js?1645477209"></script>
+    <script src="/js/highlight.pack.js?1645477209"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1643644955"></script>
-    <script src="/js/learn.js?1643644955"></script>
-    <script src="/js/hugo-learn.js?1643644955"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1645477209"></script>
+    <script src="/js/learn.js?1645477209"></script>
+    <script src="/js/hugo-learn.js?1645477209"></script>
     
         
-            <script src="/mermaid/mermaid.js?1643644955"></script>
+            <script src="/mermaid/mermaid.js?1645477209"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
