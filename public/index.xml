@@ -82,6 +82,15 @@ Datapack Petite extension du jeu modifiant légèrement certaines fonctionnalit�
     </item>
     
     <item>
+      <title>Changelog Serveur &amp; FAQ</title>
+      <link>https://surviverse.netlify.app/news/changelog-serveur/</link>
+      <pubDate>Mon, 21 Feb 2022 22:03:16 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/news/changelog-serveur/</guid>
+      <description>Création d&amp;rsquo;un changelog pour conserver les infos sur les modifications faites au serveur.</description>
+    </item>
+    
+    <item>
       <title>Changelog</title>
       <link>https://surviverse.netlify.app/changelog/</link>
       <pubDate>Mon, 21 Feb 2022 21:48:01 +0100</pubDate>
