@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.92.0" />
+    <meta name="generator" content="Hugo 0.92.1" />
     <meta name="description" content="Wiki Officiel des Star Survivors">
 <meta name="author" content="Topaway">
 
@@ -12,20 +12,20 @@
     <title>Utiliser Les Datapacks :: Surviverse Wiki</title>
    
     
-    <link href="/css/nucleus.css?1643644955" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1643644955" rel="stylesheet">
-    <link href="/css/hybrid.css?1643644955" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1643644955" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1643644955" rel="stylesheet">
-    <link href="/css/auto-complete.css?1643644955" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1643644955" rel="stylesheet">
-    <link href="/css/theme.css?1643644955" rel="stylesheet">
-    <link href="/css/tabs.css?1643644955" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1643644955" rel="stylesheet">
+    <link href="/css/nucleus.css?1645477209" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1645477209" rel="stylesheet">
+    <link href="/css/hybrid.css?1645477209" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1645477209" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1645477209" rel="stylesheet">
+    <link href="/css/auto-complete.css?1645477209" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1645477209" rel="stylesheet">
+    <link href="/css/theme.css?1645477209" rel="stylesheet">
+    <link href="/css/tabs.css?1645477209" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1645477209" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1643644955"></script>
+    <script src="/js/jquery-3.3.1.min.js?1645477209"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1643644955"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1643644955"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1645477209"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1645477209"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/surviverse.netlify.app\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1643644955"></script>
+<script type="text/javascript" src="/js/search.js?1645477209"></script>
 
     
   </div>
@@ -217,6 +217,9 @@
 
             
           
+            
+            
+          
         
         </ul>
       
@@ -309,6 +312,30 @@
 
     
     
+      <section id="shortcuts">
+        
+         <hr class="separator"> 
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/worldmap/unmined.index.html"><i class='fas fa-map-marked-alt'></i> Worldmap</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/faq"><i class="fas fa-question-circle"></i> FAQ</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/changelog"><i class="fas fa-history"></i> Changelog Serveur</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://github.com/jabossu/surviversewiki-hugo"><br><center><img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/jabossu/surviversewiki-hugo/main"></center></a>
+              </li>
+          
+        </ul>
+      </section>
+    
 
     
     <section id="footer">
@@ -332,7 +359,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/jabossu/surviversewiki-hugoGuide%20Technique/Utiliser%20les%20Datapacks.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/jabossu/surviversewiki-hugo/edit/main/content/Guide%20Technique/Utiliser%20les%20Datapacks.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -376,7 +403,22 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#quest-ce-quun-datapack-">Qu&rsquo;est-ce qu&rsquo;un Datapack ?</a></li>
+    <li><a href="#liste-des-datapacks-installés">Liste des datapacks installés</a></li>
+    <li><a href="#comment-utiliser-les-datapacks-">Comment utiliser les datapacks ?</a>
+      <ul>
+        <li><a href="#armor-statues">Armor Statues</a></li>
+        <li><a href="#betterextrarecipes">BetterExtraRecipes</a></li>
+        <li><a href="#coordinates-hud">Coordinates HUD</a></li>
+        <li><a href="#custom-roleplay-data">Custom Roleplay Data</a></li>
+        <li><a href="#mesuring-tape">Mesuring Tape</a></li>
+      </ul>
+    </li>
+    <li><a href="#tlpl-trop-long--pas-lu">TL;PL (<em>trop long ; pas lu</em>)</a></li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -399,6 +441,200 @@
         
 
 
+<p>Sur notre serveur, nous avons installé plusieurs <a href="/lexique#mod">datapacks</a> ayant pour but d&rsquo;améliorer l&rsquo;experience de jeu. Qu&rsquo;est-ce qu&rsquo;un datapack ? Comment les utiliser ? nous alons voir ça ici.</p>
+<div id="TOC" class="contentBox">
+    <h5>Sommaire</h5>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#quest-ce-quun-datapack-">Qu&rsquo;est-ce qu&rsquo;un Datapack ?</a></li>
+    <li><a href="#liste-des-datapacks-installés">Liste des datapacks installés</a></li>
+    <li><a href="#comment-utiliser-les-datapacks-">Comment utiliser les datapacks ?</a>
+      <ul>
+        <li><a href="#armor-statues">Armor Statues</a></li>
+        <li><a href="#betterextrarecipes">BetterExtraRecipes</a></li>
+        <li><a href="#coordinates-hud">Coordinates HUD</a></li>
+        <li><a href="#custom-roleplay-data">Custom Roleplay Data</a></li>
+        <li><a href="#mesuring-tape">Mesuring Tape</a></li>
+      </ul>
+    </li>
+    <li><a href="#tlpl-trop-long--pas-lu">TL;PL (<em>trop long ; pas lu</em>)</a></li>
+  </ul>
+</nav>
+</div>
+
+<h2 id="quest-ce-quun-datapack-">Qu&rsquo;est-ce qu&rsquo;un Datapack ?</h2>
+<p>Il s&rsquo;agit d&rsquo;un petit module installé sur le serveur et destiné à légèrement modifier le comportement du jeu. C&rsquo;est un peu comme un <a href="/lexique#mods">mod</a>, mais il n&rsquo;a pas besoin d&rsquo;être installé par un <a href="/lexique#client">client</a>. Il modifie le comportement du jeu pour tout les joueurs connectés.<br>
+La plupart du temps, les datapcks ont des fonctions assez simples et permettent des modifications assez superficielles du jeu, mais certains sont plus poussés.</p>
+<p>Nous utilisons nos datapacks pour améliorer la qualité de jeu des joueurs et permettre quelques fonctionnalités sympas.</p>
+<h2 id="liste-des-datapacks-installés">Liste des datapacks installés</h2>
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Descriptions</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>afk display v1.1.2.zip</strong></td>
+<td>Affiche en gris le nom des joueurs <a href="/lexique#afk">AFK</a> depuis 5 minutes</td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+<tr>
+<td><strong>anti enderman grief v1.1.2.zip</strong></td>
+<td>Les endermen ne pourront plus ramasser et déplacer les blocs.</td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+<tr>
+<td><strong>armor statues v2.8.3.zip</strong></td>
+<td>Un datapack permettant de customiser l&rsquo;apparence des items frame et des armor stand.  <a href="/guide-technique/utiliser-les-datapacks/#armor-statues">&gt; Tutoriel</a></td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+<tr>
+<td><strong>Bone_Black_1.4.zip</strong></td>
+<td>Faites cuire un os dans un four pour obtenir du colorant noir</td>
+<td><a href="http://mc.voodoobeard.com">VoodooPacks</a></td>
+</tr>
+<tr>
+<td><strong>bundlerecipe.zip</strong></td>
+<td>Permet le craft des bundles en 1.18</td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+<tr>
+<td><strong>cauldron concrete v2.0.5.zip</strong></td>
+<td>Jetter les blocs de poudre de ciment dans un chaudron rempli d&rsquo;eau pour les convertir en ciment dur !</td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+<tr>
+<td><strong>coordinates hud v1.2.2.zip</strong></td>
+<td>Affichez vos coordonées sur votre écran  <a href="/guide-technique/utiliser-les-datapacks/#coordinates-hud">&gt; Tutoriel</a></td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+<tr>
+<td><strong>custom_roleplay_data_v1.0.zip</strong></td>
+<td>Un datapack permettant de changer l&rsquo;apparence de certains objets.  <a href="/guide-technique/utiliser-les-datapacks/#custom-roleplay-data">&gt; Tutoriel</a></td>
+<td><a href="https://www.curseforge.com/minecraft/customization/custom-roleplay-data-datapack">CurseForge</a></td>
+</tr>
+<tr>
+<td><strong>death-pos-v1-1.zip</strong></td>
+<td>Après votre mort, au respawn, un papier avec les coordonnées de votre mort apparaitra dans votre inventaire</td>
+<td><a href="https://www.planetminecraft.com/data-pack/death-coordinates-4947806/">PlanetMinecraft</a></td>
+</tr>
+<tr>
+<td><strong>fast leaf decay v2.0.5.zip</strong></td>
+<td>Les feuilles des arbres coupés disparaissent plus rapidement</td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+<tr>
+<td><strong>measuring-tape-e3000.zip</strong></td>
+<td>Créez un mêtre-mesure pour vous aider à compter les blocs lors de vos builds  <a href="/guide-technique/utiliser-les-datapacks/#mesuring-tape">&gt; Tutoriel</a></td>
+<td><a href="https://www.planetminecraft.com/data-pack/measuring-tape/">PlanetMinecraft</a></td>
+</tr>
+<tr>
+<td><strong>more mob heads v2.9.3.zip</strong></td>
+<td>Les mobs dropent leurs têtes</td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+<tr>
+<td><strong>multiplayer sleep v2.6.2.zip</strong></td>
+<td>Un joueur endormi passe la nuit pour le serveur entier</td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+<tr>
+<td><strong>player head drops v1.1.2.zip</strong></td>
+<td>Les joueurs dropent leurs têtes</td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+<tr>
+<td><strong>silence mobs v1.1.2.zip</strong></td>
+<td>Utiliser une <em>Name Tag</em> et renommer un mob en <code>silence_me</code> le rend silencieux</td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+<tr>
+<td><strong>Sticky_Honey_Pistons_1.4.zip</strong></td>
+<td>Les rayons de miel aussi rendent les pistons collants</td>
+<td><a href="http://mc.voodoobeard.com">VoodooPacks</a></td>
+</tr>
+<tr>
+<td><strong>unlock all recipes v2.0.3.zip</strong></td>
+<td>Le recipe-book contient toute les recettes dès le début sans que vous ayez à les découvrir.</td>
+<td><a href="http://vanillatweaks.net">VanillaTweaks</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="comment-utiliser-les-datapacks-">Comment utiliser les datapacks ?</h2>
+<p>La plupart de ces datapacks sont passifs, c&rsquo;est à dire qu&rsquo;ils font effet sans intervention de votre part.<br>
+D&rsquo;autres s&rsquo;activent, de façon parfois peu instinctive. Voici de courts guides sur comment les utiliser. Pour plus d&rsquo;infos, référez vous aux liens du tableau ci-dessus pour des guides plus complets.</p>
+<h3 id="armor-statues">Armor Statues</h3>
+<p>Vidéo explicatrice de XisumaVoid (en 🇬🇧English🇬🇧 dans le texte):
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/nV9-_RacnoI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<h3 id="betterextrarecipes">BetterExtraRecipes</h3>
+
+<div class="notices info" ><p>Le mod originalement créé par <a href="https://www.planetminecraft.com/data-pack/mysticat-s-extra-vanilla-recipes/">Mysticat</a> avait plusieurs recettes qui me déplaisaient, comme par exemple de la bedrock ou des spawners. J&rsquo;ai donc préféré une version modifiée du datapack avec ces recettes supprimées.</p>
+</div>
+
+<p>Vous pouvez crafter dans votre table de craft préférée les objets suivants :</p>
+<ul>
+<li>Elytra</li>
+<li>Chainmail Armor</li>
+<li>Horse Armor</li>
+<li>Tridents</li>
+<li>Nametags</li>
+<li>Sadles</li>
+<li>Bottle o&rsquo;Enchanting</li>
+<li>Village Bells</li>
+<li>Crying Obsidian</li>
+<li>Magma blocks</li>
+<li>Mushroom Blocks (rouge, marron, stem)</li>
+<li>Shroomlights</li>
+<li>Grass</li>
+<li>Cobblestone (dans un <em>stonecutter</em>)</li>
+<li>Deadbush (sappling dans un four)</li>
+<li>Cuir (Rooten Flesh dans un four)</li>
+<li>Cobwebs</li>
+<li>Glowstone</li>
+<li>Glow Ink</li>
+<li>Glow Lichen</li>
+</ul>
+<p>Toutes les recettes sont détaillées dans le <em>Recipe Book</em> 📗</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/DDsLZC7V-M4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="coordinates-hud">Coordinates HUD</h3>
+<p>Les coordonnées X/Y/Z de votre avatar dans le monde s&rsquo;affichent au dessus de votre barre d&rsquo;inventaire.
+Pour activer / désactiver l&rsquo;affichage, tapez simplement la commande suivant:</p>
+<pre tabindex="0"><code>/trigger ch_toogle
+</code></pre><h3 id="custom-roleplay-data">Custom Roleplay Data</h3>
+<p>L&rsquo;emploi de ce datapack est résservé aux admins du serveur. Contacez moi si vous avez besoin de quelque chose !</p>
+<h3 id="mesuring-tape">Mesuring Tape</h3>
+<p>Vous aurez besoin de :</p>
+<ul>
+<li>1 cane à pèche - carotte</li>
+<li>1 boussolle</li>
+</ul>
+<ol>
+<li>Jetez la cane à pèche sur le sol, et la boussole dessus.</li>
+<li><em>Profit</em> 👍</li>
+</ol>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/oHbTMZ45bJ0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="tlpl-trop-long--pas-lu">TL;PL (<em>trop long ; pas lu</em>)</h2>
+<ul>
+<li>les Datapacks n&rsquo;ont pas besoin d&rsquo;être installé par les clients</li>
+<li>ils permettent la personnalisation d&rsquo;un serveur en ajoutant de nombreuses petites fonctionnalités</li>
+<li>ils s&rsquo;appliquent à tout les joueurs connectés au serveur</li>
+<li>chaque datapack a un fonctionnement propre</li>
+</ul>
 
 
 <footer class="footline">
@@ -529,38 +765,8 @@
             
         
                     
-            
-        
-                    
                         
             
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
             
         
                     
@@ -572,6 +778,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -579,6 +788,54 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -637,19 +894,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1643644955"></script>
-    <script src="/js/perfect-scrollbar.min.js?1643644955"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1643644955"></script>
-    <script src="/js/jquery.sticky.js?1643644955"></script>
-    <script src="/js/featherlight.min.js?1643644955"></script>
-    <script src="/js/highlight.pack.js?1643644955"></script>
+    <script src="/js/clipboard.min.js?1645477209"></script>
+    <script src="/js/perfect-scrollbar.min.js?1645477209"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1645477209"></script>
+    <script src="/js/jquery.sticky.js?1645477209"></script>
+    <script src="/js/featherlight.min.js?1645477209"></script>
+    <script src="/js/highlight.pack.js?1645477209"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1643644955"></script>
-    <script src="/js/learn.js?1643644955"></script>
-    <script src="/js/hugo-learn.js?1643644955"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1645477209"></script>
+    <script src="/js/learn.js?1645477209"></script>
+    <script src="/js/hugo-learn.js?1645477209"></script>
     
         
-            <script src="/mermaid/mermaid.js?1643644955"></script>
+            <script src="/mermaid/mermaid.js?1645477209"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

@@ -32,6 +32,10 @@ theme = "learn"
     name='<i class="fas fa-question-circle"></i> FAQ'
     url = "/FAQ"
     weight = 30
+[[menu.shortcuts]]
+    name='<i class="fas fa-history"></i> Changelog Serveur'
+    url = "/changelog"
+    weight = 40
 
 [[menu.shortcuts]]
     name='<br><center><img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/jabossu/surviversewiki-hugo/main"></center>'

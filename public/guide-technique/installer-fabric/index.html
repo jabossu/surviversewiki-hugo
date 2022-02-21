@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.92.0" />
+    <meta name="generator" content="Hugo 0.92.1" />
     <meta name="description" content="Wiki Officiel des Star Survivors">
 <meta name="author" content="Topaway">
 
@@ -12,20 +12,20 @@
     <title>Installer Fabric :: Surviverse Wiki</title>
    
     
-    <link href="/css/nucleus.css?1643644955" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1643644955" rel="stylesheet">
-    <link href="/css/hybrid.css?1643644955" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1643644955" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1643644955" rel="stylesheet">
-    <link href="/css/auto-complete.css?1643644955" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1643644955" rel="stylesheet">
-    <link href="/css/theme.css?1643644955" rel="stylesheet">
-    <link href="/css/tabs.css?1643644955" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1643644955" rel="stylesheet">
+    <link href="/css/nucleus.css?1645477209" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1645477209" rel="stylesheet">
+    <link href="/css/hybrid.css?1645477209" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1645477209" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1645477209" rel="stylesheet">
+    <link href="/css/auto-complete.css?1645477209" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1645477209" rel="stylesheet">
+    <link href="/css/theme.css?1645477209" rel="stylesheet">
+    <link href="/css/tabs.css?1645477209" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1645477209" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1643644955"></script>
+    <script src="/js/jquery-3.3.1.min.js?1645477209"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1643644955"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1643644955"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1645477209"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1645477209"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/surviverse.netlify.app\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1643644955"></script>
+<script type="text/javascript" src="/js/search.js?1645477209"></script>
 
     
   </div>
@@ -217,6 +217,9 @@
 
             
           
+            
+            
+          
         
         </ul>
       
@@ -309,6 +312,30 @@
 
     
     
+      <section id="shortcuts">
+        
+         <hr class="separator"> 
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/worldmap/unmined.index.html"><i class='fas fa-map-marked-alt'></i> Worldmap</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/faq"><i class="fas fa-question-circle"></i> FAQ</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/changelog"><i class="fas fa-history"></i> Changelog Serveur</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://github.com/jabossu/surviversewiki-hugo"><br><center><img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/jabossu/surviversewiki-hugo/main"></center></a>
+              </li>
+          
+        </ul>
+      </section>
+    
 
     
     <section id="footer">
@@ -332,7 +359,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/jabossu/surviversewiki-hugoGuide%20Technique/Installer%20Fabric.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/jabossu/surviversewiki-hugo/edit/main/content/Guide%20Technique/Installer%20Fabric.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -376,7 +403,19 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#pourquoi-fabric-">Pourquoi Fabric ?</a></li>
+    <li><a href="#le-fabric-loader">le Fabric Loader</a>
+      <ul>
+        <li><a href="#prérequis">Prérequis</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#mise-à-jour">Mise à jour</a></li>
+        <li><a href="#troubleshooting">Troubleshooting</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -399,6 +438,112 @@
         
 
 
+<blockquote>
+<p>Premiers pas pour Modder votre jeu avec Fabric</p>
+</blockquote>
+<div id="TOC" class="contentBox">
+    <h5>Sommaire</h5>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#pourquoi-fabric-">Pourquoi Fabric ?</a></li>
+    <li><a href="#le-fabric-loader">le Fabric Loader</a>
+      <ul>
+        <li><a href="#prérequis">Prérequis</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#mise-à-jour">Mise à jour</a></li>
+        <li><a href="#troubleshooting">Troubleshooting</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+<h2 id="pourquoi-fabric-">Pourquoi Fabric ?</h2>
+<p>Il existe plusieurs systèmes différents pour modder Minecraft. Forge est le plus connu, mais il existe aussi Spigot, Bukkit, Paper&hellip; Celui qui est à la mode depuis un certain temps est Fabric, et c&rsquo;est celui que nous utilisons sur le serveur des Star Survivors.</p>
+<p><strong>Les avantages de Fabric</strong></p>
+<ul>
+<li>la facilité d&rsquo;installation</li>
+<li>la légèreté et l&rsquo;économie des ressources</li>
+<li>les mises à jours rapides</li>
+<li>la large bibliothèque de mods disponibles</li>
+</ul>
+<h2 id="le-fabric-loader">le Fabric Loader</h2>
+
+<div class="notices tip" ><p>L&rsquo;installation décrite ici concerne la version officielle de Minecraft, telle que téléchargée sur <a href="http://minecraft.net">minecraft.net</a>.<br>
+D&rsquo;autres méthodes d&rsquo;installation existent, notamment pour les lanceurs alternatifs comme <a href="https://fabricmc.net/wiki/player:tutorials:install_multimc:windows">MultiMC</a></p>
+</div>
+
+<h3 id="prérequis">Prérequis</h3>
+<ul>
+<li>un compte Minecraft</li>
+<li>Minecraft installé, ayant été lancé au moins une fois</li>
+</ul>
+<h3 id="installation">Installation</h3>
+<ol>
+<li>Télé-chargez l&rsquo;installateur sur <a href="http://fabricmc.net">
+<i class="fa-solid fa-link"></i>
+ fabricmc.net</a>
+<ul>
+<li><strong>
+<i class="fab fa-linux"></i>
+ Linux / 
+<i class="fab fa-apple"></i>
+ MacOS</strong>: choisissez le fichier <code>.JAR</code></li>
+<li><strong>
+<i class="fab fa-windows"></i>
+ Windows</strong>: choisissez l'<code>installateur windows</code></li>
+</ul>
+</li>
+<li>Executez l&rsquo;installateur
+<ul>
+<li><strong>
+<i class="fab fa-linux"></i>
+ Linux / 
+<i class="fab fa-apple"></i>
+ MacOS</strong>:
+<ul>
+<li>Ouvrez un Terminal et naviguez vers le dossier où se trouve l&rsquo;installateur (probablement le dossier de télé-chargements)</li>
+<li>Tapez la commande suivante :
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">java -jar fabric-installer-0.xx.xx.jar
+</code></pre></div></li>
+</ul>
+</li>
+<li><strong>
+<i class="fab fa-windows"></i>
+ Windows</strong>: exécutez le fichier <code>.exe</code> que vous venez de télécharger</li>
+</ul>
+</li>
+<li>Ouvrez Minecraft, choisissez le nouveau profile &ldquo;<em>Fabric</em>&rdquo;
+<ul>
+<li>NB: Si pas de profile, erreur d&rsquo;installation</li>
+</ul>
+</li>
+<li>Une fenêtre s&rsquo;ouvre et vous demande de choisir la version de fabric et de minecraft.
+<ul>
+<li>choisissez la dernière version de fabric</li>
+<li>choisissez minecraft 1.18.1</li>
+</ul>
+</li>
+<li>Ouvrez Minecraft, choisissez le nouveau profile &ldquo;<em>Fabric</em>&rdquo;
+<ul>
+<li>NB: Si le profile n&rsquo;apparaît pas, il y a eu une erreur d&rsquo;installation</li>
+</ul>
+</li>
+<li>Jouez &amp; Enjoy</li>
+</ol>
+<h3 id="mise-à-jour">Mise à jour</h3>
+<ul>
+<li>Suivez exactement le même processus que pour l'<a href="#installation">installation</a></li>
+<li>Choisissez le nouveau profile créé au lieu de l&rsquo;ancien
+<ul>
+<li>vous pouvez supprimer l&rsquo;ancien profile</li>
+</ul>
+</li>
+</ul>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<ul>
+<li><strong>Echec de l&rsquo;installation</strong>: Vérifiez que Java SE v17 est bien installé</li>
+</ul>
 
 
 <footer class="footline">
@@ -532,6 +677,43 @@
             
         
                     
+                        
+            
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -563,22 +745,6 @@
                     
             
         
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
                         
             
@@ -637,19 +803,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1643644955"></script>
-    <script src="/js/perfect-scrollbar.min.js?1643644955"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1643644955"></script>
-    <script src="/js/jquery.sticky.js?1643644955"></script>
-    <script src="/js/featherlight.min.js?1643644955"></script>
-    <script src="/js/highlight.pack.js?1643644955"></script>
+    <script src="/js/clipboard.min.js?1645477209"></script>
+    <script src="/js/perfect-scrollbar.min.js?1645477209"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1645477209"></script>
+    <script src="/js/jquery.sticky.js?1645477209"></script>
+    <script src="/js/featherlight.min.js?1645477209"></script>
+    <script src="/js/highlight.pack.js?1645477209"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1643644955"></script>
-    <script src="/js/learn.js?1643644955"></script>
-    <script src="/js/hugo-learn.js?1643644955"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1645477209"></script>
+    <script src="/js/learn.js?1645477209"></script>
+    <script src="/js/hugo-learn.js?1645477209"></script>
     
         
-            <script src="/mermaid/mermaid.js?1643644955"></script>
+            <script src="/mermaid/mermaid.js?1645477209"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

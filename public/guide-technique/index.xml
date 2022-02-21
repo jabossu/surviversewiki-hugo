@@ -22,7 +22,8 @@
       <pubDate>Fri, 14 Jan 2022 22:23:00 +0100</pubDate>
       
       <guid>https://surviverse.netlify.app/guide-technique/installer-fabric/</guid>
-      <description></description>
+      <description>Premiers pas pour Modder votre jeu avec Fabric
+ Sommaire  Pourquoi Fabric ? le Fabric Loader  Prérequis Installation Mise à jour Troubleshooting      Pourquoi Fabric ? Il existe plusieurs systèmes différents pour modder Minecraft. Forge est le plus connu, mais il existe aussi Spigot, Bukkit, Paper&amp;hellip; Celui qui est à la mode depuis un certain temps est Fabric, et c&amp;rsquo;est celui que nous utilisons sur le serveur des Star Survivors.</description>
     </item>
     
     <item>
@@ -31,7 +32,8 @@
       <pubDate>Fri, 14 Jan 2022 22:23:14 +0100</pubDate>
       
       <guid>https://surviverse.netlify.app/guide-technique/modder-avec-fabric/</guid>
-      <description></description>
+      <description>Modder avec fabric est très facile. Il suffit de placer les bons fichiers au bons endroit, puis de rédemarrer le jeu. Certains mods ont besoin parfois d&amp;rsquo;un peu de configuration, mais beaucoup marchent tels quel. Voici un court tutoriel sur comment commder minecraft une fois fabric installé. Vous trouverez en bas de cette page quelques liens à propos de certains mods spécifiques].
+Sommaire  Trouver et choisir ses mods  Les principales sources A prendre en compte… Mod Client ou Mod serveur ?</description>
     </item>
     
     <item>
@@ -40,7 +42,8 @@
       <pubDate>Fri, 14 Jan 2022 22:24:16 +0100</pubDate>
       
       <guid>https://surviverse.netlify.app/guide-technique/choisir-ses-mods/</guid>
-      <description></description>
+      <description>De nombreux mods existent pour Minecraft, mais tous ne sont pas compatibles avec Fabric ni avec Minecraft 1.18.1. Certains mods sont prévus pour le serveur, d&amp;rsquo;autres pour le client. La majorité ont besoin d&amp;rsquo;être installés sur les deux pour fonctionner correctement.
+Notre serveur est Vanilla-Like, c&amp;rsquo;est à dire que nous essayons d&amp;rsquo;avoir le moins de mods possible, et que ceux que nous avons ne modifient pas d&amp;rsquo;aspect fondamental du jeu. Nous voulons garder le gameplay de Minecraft tout en améliorant la qualité de vie des joueurs.</description>
     </item>
     
     <item>
@@ -49,7 +52,17 @@
       <pubDate>Fri, 14 Jan 2022 22:24:53 +0100</pubDate>
       
       <guid>https://surviverse.netlify.app/guide-technique/utiliser-les-datapacks/</guid>
-      <description></description>
+      <description>Sur notre serveur, nous avons installé plusieurs datapacks ayant pour but d&amp;rsquo;améliorer l&amp;rsquo;experience de jeu. Qu&amp;rsquo;est-ce qu&amp;rsquo;un datapack ? Comment les utiliser ? nous alons voir ça ici.
+Sommaire  Qu&amp;rsquo;est-ce qu&amp;rsquo;un Datapack ? Liste des datapacks installés Comment utiliser les datapacks ?  Armor Statues BetterExtraRecipes Coordinates HUD Custom Roleplay Data Mesuring Tape   TL;PL (trop long ; pas lu)    Qu&amp;rsquo;est-ce qu&amp;rsquo;un Datapack ? Il s&amp;rsquo;agit d&amp;rsquo;un petit module installé sur le serveur et destiné à légèrement modifier le comportement du jeu.</description>
+    </item>
+    
+    <item>
+      <title>Voicechat (zoom)</title>
+      <link>https://surviverse.netlify.app/guide-technique/zoom/voicechat/</link>
+      <pubDate>Wed, 16 Feb 2022 15:24:16 +0100</pubDate>
+      
+      <guid>https://surviverse.netlify.app/guide-technique/zoom/voicechat/</guid>
+      <description>Un mod de chat de proximité installé sur le serveur. Site officiel : ModRepo</description>
     </item>
     
   </channel>

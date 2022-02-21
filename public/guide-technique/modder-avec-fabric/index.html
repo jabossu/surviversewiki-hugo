@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.92.0" />
+    <meta name="generator" content="Hugo 0.92.1" />
     <meta name="description" content="Wiki Officiel des Star Survivors">
 <meta name="author" content="Topaway">
 
@@ -12,20 +12,20 @@
     <title>Modder Avec Fabric :: Surviverse Wiki</title>
    
     
-    <link href="/css/nucleus.css?1643644955" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1643644955" rel="stylesheet">
-    <link href="/css/hybrid.css?1643644955" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1643644955" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1643644955" rel="stylesheet">
-    <link href="/css/auto-complete.css?1643644955" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1643644955" rel="stylesheet">
-    <link href="/css/theme.css?1643644955" rel="stylesheet">
-    <link href="/css/tabs.css?1643644955" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1643644955" rel="stylesheet">
+    <link href="/css/nucleus.css?1645477209" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1645477209" rel="stylesheet">
+    <link href="/css/hybrid.css?1645477209" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1645477209" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1645477209" rel="stylesheet">
+    <link href="/css/auto-complete.css?1645477209" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1645477209" rel="stylesheet">
+    <link href="/css/theme.css?1645477209" rel="stylesheet">
+    <link href="/css/tabs.css?1645477209" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1645477209" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1643644955"></script>
+    <script src="/js/jquery-3.3.1.min.js?1645477209"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60,14 +60,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1643644955"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1643644955"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1645477209"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1645477209"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/surviverse.netlify.app\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1643644955"></script>
+<script type="text/javascript" src="/js/search.js?1645477209"></script>
 
     
   </div>
@@ -217,6 +217,9 @@
 
             
           
+            
+            
+          
         
         </ul>
       
@@ -309,6 +312,30 @@
 
     
     
+      <section id="shortcuts">
+        
+         <hr class="separator"> 
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/worldmap/unmined.index.html"><i class='fas fa-map-marked-alt'></i> Worldmap</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/faq"><i class="fas fa-question-circle"></i> FAQ</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://surviverse.netlify.app/changelog"><i class="fas fa-history"></i> Changelog Serveur</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://github.com/jabossu/surviversewiki-hugo"><br><center><img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/jabossu/surviversewiki-hugo/main"></center></a>
+              </li>
+          
+        </ul>
+      </section>
+    
 
     
     <section id="footer">
@@ -332,7 +359,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/jabossu/surviversewiki-hugoGuide%20Technique/Modder%20avec%20Fabric.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/jabossu/surviversewiki-hugo/edit/main/content/Guide%20Technique/Modder%20avec%20Fabric.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -376,7 +403,19 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#trouver-et-choisir-ses-mods">Trouver et choisir ses mods</a>
+      <ul>
+        <li><a href="#les-principales-sources">Les principales sources</a></li>
+        <li><a href="#a-prendre-en-compte">A prendre en compte…</a></li>
+        <li><a href="#mod-client-ou-mod-serveur-">Mod Client ou Mod serveur ?</a></li>
+      </ul>
+    </li>
+    <li><a href="#télécharger-et-installer-un-mod">Télécharger et installer un mod</a></li>
+    <li><a href="#zoom-sur">Zoom sur&hellip;</a></li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -399,6 +438,92 @@
         
 
 
+<p>Modder avec fabric est très facile. Il suffit de placer les bons fichiers au bons endroit, puis de rédemarrer le jeu.
+Certains mods ont besoin parfois d&rsquo;un peu de configuration, mais beaucoup marchent tels quel.
+Voici un court tutoriel sur comment commder minecraft une fois fabric installé. Vous trouverez en bas de cette page quelques liens à propos de certains mods spécifiques].</p>
+<div id="TOC" class="contentBox">
+    <h5>Sommaire</h5>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#trouver-et-choisir-ses-mods">Trouver et choisir ses mods</a>
+      <ul>
+        <li><a href="#les-principales-sources">Les principales sources</a></li>
+        <li><a href="#a-prendre-en-compte">A prendre en compte…</a></li>
+        <li><a href="#mod-client-ou-mod-serveur-">Mod Client ou Mod serveur ?</a></li>
+      </ul>
+    </li>
+    <li><a href="#télécharger-et-installer-un-mod">Télécharger et installer un mod</a></li>
+    <li><a href="#zoom-sur">Zoom sur&hellip;</a></li>
+  </ul>
+</nav>
+</div>
+
+
+<div class="notices warning" ><p>Vous devez bien sur avoir installé minecraft et fabric. Si vous avez des soucis avec cette étape, consultez <a href="/guide-technique/installer-fabric/">cette page</a></p>
+</div>
+
+<h2 id="trouver-et-choisir-ses-mods">Trouver et choisir ses mods</h2>
+<h3 id="les-principales-sources">Les principales sources</h3>
+<p>Il y a de nombreux sites internet à partir desquels télécharger des mods. Néanmoins, certains sont plus populaires que d&rsquo;autres, et les mods proposés dessus sont en général de meilleure &ldquo;qualité&rdquo; (moins prompts à beuguer/crasher) que les autres. De plus, les autres sites sont souvents des &ldquo;mirroirs&rdquo;, sur lesquels les version distribuées ne sont pas à jour, et parfois même redistribuées sans le consentement de l&rsquo;auteur du mod.</p>
+<p>Voici une liste (non exhaustive) des sites les plus populaires :</p>
+<ul>
+<li><a href="http://curseforge.com">CurseForge</a> : le plus connu, proposant le plus de choix</li>
+<li><a href="http://modrinth.com/mods">Modrinth</a> : moins connu, plus récent, petit favori de certains moddeurs de par sa facilité d&rsquo;emploi. Tout le sprojets publiés dessus sont nécessairement open-source. Moins de choix, mais des mods plus à jour et d&rsquo;excellente qualité.</li>
+<li><a href="http://modrepo.de">ModRepo</a> : toute petite base de mods, aux idées et fonctionnalités interessantes.</li>
+</ul>
+<h3 id="a-prendre-en-compte">A prendre en compte…</h3>
+<p>Quand vous choisissez un mod, vous devez faire attention à certaines choses pour en garantir le fonctionnement. Tout les mods sont au fond du bidouillage, et sont donc à même de rendre le jeu instable ou de dégrader les performances. A vous de vous assurer que le jeu est prêt à recevoir le mod et à le faire fonctionner. Certains paramètres sont cruxiaux à considérer en installant un mod.</p>
+<h4 id="considérer-de-la-version-du-jeu">Considérer de la version du jeu</h4>
+<p>Les mods sont écrits et publiés pour une version du jeu. Quand vous téléchargez le mod, assurez vous que ce soit la bonne. Un mod programmé pour la 1.17 ne marchera très probalement pas pour la 1.18 ou la 1.16. Par contre, il arrive q&rsquo;un mod pour la 1.18 fonctionne en 1.18.1</p>
+<h4 id="méditer-sur-le-modloader">Méditer sur le Modloader</h4>
+<p>Il y a quelques grandes familles de modloaders : Forge, Fabric et Spigot/Bukkit/Paper.
+Un mod pour l&rsquo;un de ces loader ne fonctionnera tout simplement pas sur les autres.</p>
+<p>Beaucoups mods sont publiés pour plusieurs launchers : en général pour Fabric et Forge, mais certains moddeurs ont leur environnement de choix et s&rsquo;y tiennent.</p>
+<p>Nous utilisons le Fabric Mod Loader sur le serveur, car c&rsquo;est celui qui impacte le moins le gameplay et les performances, qu&rsquo;il propose tout de même beaucoup de choix de mods, et parce qu&rsquo;il est simple à utiliser.<br>
+Pour ces raisons, tout les conseils donnés sur notre wiki s&rsquo;appliquent au Fabric mod loader seulement.</p>
+<h4 id="pondérer-les-dépendences">Pondérer les dépendences</h4>
+<p>Un mod est une extension de minecraft. Certains sont des programmes complexes. Ainsi, ils reposent souvent sur des dépendances, c&rsquo;est à dire des &ldquo;sous-mods&rdquo; assez basiques qui ne font pas grand chose d&rsquo;autre que de permettre à des projets plus grand de se développer.<br>
+Chaque mod nécessite absolument ses dépendances, et si elles ne sont pas présentes, le jeu ne démarera tout simplement pas.</p>
+<p>La dépendance la plus fréquemment retrouvée dans les mods Fabric est la FabricAPI, à tel point que je vous recommande de l&rsquo;installer d&rsquo;emblée.</p>
+<h3 id="mod-client-ou-mod-serveur-">Mod Client ou Mod serveur ?</h3>
+<ol>
+<li>Certains mods s&rsquo;installent sur le <a href="/lexique#client">client</a>, c&rsquo;est à dire sur votre machine de joueur. Vous pourrez utiliser ceux ci smplement en les installant sur votre machine, et cela ne regarde que vous.</li>
+<li>D&rsquo;autres s&rsquo;installent sur le <a href="/lexique#serveur">serveur</a>. Vous pourrez les utiliser simplement en vous connectant sur le serveur, et les installer sur votre machine n&rsquo;aura pas d&rsquo;effet, un peu à la façon d&rsquo;un <a href="/lexique#datapack">datapack</a></li>
+<li>Enfin, certains doivent être présents sur les deux pour fonctionner correctement.
+<ul>
+<li>En général, ces mods empèchent les clients qui ne les ont pas installé de se connecter au serveur. Néanmoins, nous n&rsquo;avons choisi que des mods qui permettent la connexion des clients vanilla.</li>
+<li>Un client qui ne possède pas le mod pourra donc jouer, mais ne bénéficiera pas des fonctionnalités apportées par le mod.</li>
+</ul>
+</li>
+</ol>
+
+<div class="notices tip" ><p>Si vous voulez proposer/demander l&rsquo;installation d&rsquo;un mod sur le serveur, lancez la discussion sur le discord ! toute suggestion est la bienvenue. Gardez à l&rsquo;esprit que nous voulons tout de même conserver un aspect &ldquo;vanilla-like&rdquo; au jeu, et que nous preférons les mods qui n&rsquo;excuent pas les clients non-moddés.</p>
+</div>
+
+<h2 id="télécharger-et-installer-un-mod">Télécharger et installer un mod</h2>
+<p>La majorité des mods s&rsquo;installent de façon assez simple. Il suffit de télécharger le fichier et de le glisser dans le dossier du jeu au bon endroit. Toutefois, il est bon de noter&hellip;</p>
+<ul>
+<li>certains mods sont développés en différentes version. Il faut donc télécharger la bonne. cf <a href="#a-prendre-en-compte">plus haut</a>.</li>
+<li>certains mods ont des méthodes d&rsquo;installations plus compliquées. Elle sont généralement bien détaillées sur le site du développeur, et il faut alors les suivre.</li>
+<li>parfois, le fichier téléchargé est un <code>.zip</code>. Dans ces cas là, il faut en général l&rsquo;extraire pour en retirer le fichier <code>.jar</code> (sauf si le contraire est précisé par le mod)</li>
+</ul>
+<p>Le dossier où placer les mods est différent selon votre système d&rsquo;exploitation:</p>
+<ul>
+<li><strong>
+<i class="fab fa-linux"></i>
+ Linux / 
+<i class="fab fa-apple"></i>
+ MacOS</strong>: <code>$HOME/.minecraft/mods</code></li>
+<li><strong>
+<i class="fab fa-windows"></i>
+ Windows</strong>: <code>%appdata%\minecraft\mods</code>
+Si le dossier n&rsquo;existe pas, il faut le créer.</li>
+</ul>
+<h2 id="zoom-sur">Zoom sur&hellip;</h2>
+<p>Certains mods nécessitent un peu de configuration ou bien une installation un peu particulière. Il n&rsquo;est bien sûr pas possible de tous les lister ici, mais vous trouverez ici un abrégé du guide d&rsquo;installation pour ceux utilisés par le serveur.</p>
+<ul>
+<li><a href="../zoom/voicechat">Voicechat</a></li>
+</ul>
 
 
 <footer class="footline">
@@ -532,6 +657,43 @@
             
         
                     
+                        
+            
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -563,22 +725,6 @@
                     
             
         
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
                         
             
@@ -637,19 +783,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1643644955"></script>
-    <script src="/js/perfect-scrollbar.min.js?1643644955"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1643644955"></script>
-    <script src="/js/jquery.sticky.js?1643644955"></script>
-    <script src="/js/featherlight.min.js?1643644955"></script>
-    <script src="/js/highlight.pack.js?1643644955"></script>
+    <script src="/js/clipboard.min.js?1645477209"></script>
+    <script src="/js/perfect-scrollbar.min.js?1645477209"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1645477209"></script>
+    <script src="/js/jquery.sticky.js?1645477209"></script>
+    <script src="/js/featherlight.min.js?1645477209"></script>
+    <script src="/js/highlight.pack.js?1645477209"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1643644955"></script>
-    <script src="/js/learn.js?1643644955"></script>
-    <script src="/js/hugo-learn.js?1643644955"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1645477209"></script>
+    <script src="/js/learn.js?1645477209"></script>
+    <script src="/js/hugo-learn.js?1645477209"></script>
     
         
-            <script src="/mermaid/mermaid.js?1643644955"></script>
+            <script src="/mermaid/mermaid.js?1645477209"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
