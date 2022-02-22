@@ -69,11 +69,11 @@ Voici une liste suggestive et non-exhaustive de mods pratiques, utilisables en �
 ### Librairies & Dépendances
 Ces mods sont les fondations sur lesquelles reposent les autres. Vous devrez les installer pour permettre au jeu de fonctionner.  
 Voici quelques unes de ces dépendances :
- - Fabric Loader: pas vraiment un mod, mais nécessaire pour tout jeu moddé. [Installez le](/guide-technique/installer-fabric).
- - Fabric API: 
- - modmenu
- - cloth-config
- - architectury
+  - Fabric Loader: pas vraiment un mod, mais nécessaire pour tout jeu moddé. [Installez le](/guide-technique/installer-fabric).
+  - Fabric API: 
+  - modmenu
+  - cloth-config
+  - architectury
 
 {{% notice tip %}}
 Chaque mod précise dans sa page de descriptions quels sont ses dépendances. Si votre jeu crash au démarrage, vérifiez les messages d'erreurs à la recherche d'une manquante.
