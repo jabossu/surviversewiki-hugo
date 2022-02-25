@@ -20,9 +20,9 @@ Vous devez bien sur avoir installé minecraft et fabric. Si vous avez des soucis
 Il y a de nombreux sites internet à partir desquels télécharger des mods. Néanmoins, certains sont plus populaires que d'autres, et les mods proposés dessus sont en général de meilleure "qualité" (moins prompts à beuguer/crasher) que les autres. De plus, les autres sites sont souvents des "mirroirs", sur lesquels les version distribuées ne sont pas à jour, et parfois même redistribuées sans le consentement de l'auteur du mod.
 
 Voici une liste (non exhaustive) des sites les plus populaires :
- - [CurseForge](http://curseforge.com) : le plus connu, proposant le plus de choix
- - [Modrinth](http://modrinth.com/mods) : moins connu, plus récent, petit favori de certains moddeurs de par sa facilité d'emploi. Tout le sprojets publiés dessus sont nécessairement open-source. Moins de choix, mais des mods plus à jour et d'excellente qualité.
- - [ModRepo](http://modrepo.de) : toute petite base de mods, aux idées et fonctionnalités interessantes.
+  - [CurseForge](http://curseforge.com) : le plus connu, proposant le plus de choix
+  - [Modrinth](http://modrinth.com/mods) : moins connu, plus récent, petit favori de certains moddeurs de par sa facilité d'emploi. Tout le sprojets publiés dessus sont nécessairement open-source. Moins de choix, mais des mods plus à jour et d'excellente qualité.
+  - [ModRepo](http://modrepo.de) : toute petite base de mods, aux idées et fonctionnalités interessantes.
 
 ### A prendre en compte…
 Quand vous choisissez un mod, vous devez faire attention à certaines choses pour en garantir le fonctionnement. Tout les mods sont au fond du bidouillage, et sont donc à même de rendre le jeu instable ou de dégrader les performances. A vous de vous assurer que le jeu est prêt à recevoir le mod et à le faire fonctionner. Certains paramètres sont cruxiaux à considérer en installant un mod.
